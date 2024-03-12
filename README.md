@@ -18,16 +18,17 @@ Le GarderMapBot (GMB) est un robot conçu pour cartographier les jardins en mesu
 
 
 ## Contribution
-
+---
 
 ## Licence
-Distribué sous la Licence MIT. Voir `LICENSE` pour plus d'informations.
+Distribué sous la Licence Apache-2.0 license. Voir `LICENSE` pour plus d'informations.
 
 ## Contact
 - GNASSINGBE Emilie Koboyo - @+228 93 26 69 57
 - DOUMBIA Aïchata  - @+228 70 90 99 77
 - KORDOHOU Errath - @+228 91 02 15 05
+
 Lien du projet: https://github.com/THE07s/GarderMapBot.git
 
 ## Remerciements
-- 
+---
