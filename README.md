@@ -3,7 +3,7 @@
 ## À propos du projet
 <img align="left" src="https://github.com/THE07s/GarderMapBot/assets/101391118/45ccf17c-52ff-4c6a-bc98-bd0e7e535424" alt="GMD logo" width="70%" />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Le GardenMapBot (GMB) est un robot conçu pour cartographier les jardins en mesurant la température, l'humidité et l'ensoleillement. Ces données permettent lui permettent de fournir des conseils pour optimiser la croissance et la santé des plantes.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Le GardenMapBot (GMB) est un robot conçu pour cartographier les jardins en mesurant la température, l'humidité et l'ensoleillement. Ces données lui permettent de fournir des conseils pour optimiser la croissance et la santé des plantes.
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Fonctionnalités
