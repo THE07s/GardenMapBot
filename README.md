@@ -8,6 +8,12 @@
 
 ## Sommaire
 
+[I.Qui sommes-nous?]
+
+[II.Pourquoi ce projet?]
+
+[III.Fonctionnalités]
+
 ## Qui sommes-nous ?
 
 ## Pourquoi ce projet ?
