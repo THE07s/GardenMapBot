@@ -8,35 +8,35 @@
 
 ## Sommaire
 
-[I.Qui sommes-nous?](https://github.com/THE07s/GardenMapBot/blob/main/README.md#iqui-sommes-nous-?)
+[I. Qui sommes-nous?](#iqui-sommes-nous-?)
 
-[II.Pourquoi ce projet?](#iipourquoi-ce-projet-?)
+[II. Pourquoi ce projet?](#iipourquoi-ce-projet-?)
 
-[III.Fonctionnalités](#iiifonctionnalités)
+[III. Fonctionnalités](#iiifonctionnalités)
 
-[IV.Liste du matériel du projet final](#ivliste-du-matériel-du-projet-final)
+[IV. Liste du matériel du projet final](#ivliste-du-matériel-du-projet-final)
 
-[V.Installation du projet final](#vinstallation-du-projet-final)
+[V. Installation du projet final](#vinstallation-du-projet-final)
 
-[VI.Notre parcours](#vinotre-parcours)
+[VI. Notre parcours](#vinotre-parcours)
 
-[VII.Contributions](#viicontributions)
+[VII. Contributions](#viicontributions)
 
-[VIII.Contacts](#viiicontacts)
+[VIII. Contacts](#viiicontacts)
 
-[XI.Remerciemments](#xiremerciements)
+[XI. Remerciemments](#xiremerciements)
 
-## I.Qui sommes-nous ?
+## I. Qui sommes-nous ?
 
-## II.Pourquoi ce projet ?
+## II. Pourquoi ce projet ?
 
-## III.Fonctionnalités
+## III. Fonctionnalités
 - **Cartographie thermique**
 - **Cartographie de l'humidité**
 - **Cartographie de l'ensoleillement**
 - **Conseils de jardinage**
 
-## IV.Liste du matériel du projet final
+## IV. Liste du matériel du projet final
 | **Système**     | **Arduino**            | **Espressif**           |
 | --------------- | ---------------------- | ----------------------- |
 | 🖥️ **Microcontrôleur** | Arduino Uno        | ESP-32-CAM             |
@@ -48,12 +48,12 @@
 |                 | - 🔋 Batterie : rechargeable et légère | - 🔋 Batterie : rechargeable et légère |
 |                 | - 🛡️ Châssis : PLA     | - 🛡️ Châssis : PLA     |
 
-## V.Installation du projet final
+## V. Installation du projet final
 😶‍🌫️
 
-## VI.Notre parcours
+## VI. Notre parcours
 
-Le projet finale implique un robot entièrement autonome, capable de faire la cartographie d'un jardin de forme complexe. Mais avant d'en arriver à ce résultat final il faut que nous adoptions une méthode itérative. Ainsi dans un premier temps, le contenu du projet se limitera à celui-ci.
+Le projet final implique un robot entièrement autonome, capable de faire la cartographie d'un jardin de forme complexe. Mais avant d'en arriver à ce résultat final il faut que nous adoptions une méthode itérative. Ainsi dans un premier temps, le contenu du projet se limitera à celui-ci.
 
 | **Système**     | **Arduino**               |
 | --------------- | ------------------------- |
@@ -65,18 +65,18 @@ Le projet finale implique un robot entièrement autonome, capable de faire la ca
 
 En connaissance de ceci, voici le modèle 3D que nous avons réalisé dans fusion :
 
-## VII.Contributions
+## VII. Contributions
 😶‍🌫️
 
 ## Licence
 Distribué sous la Licence Apache-2.0 license. Voir `LICENSE` pour plus d'informations.
 
-## VIII.Contacts
+## VIII. Contacts
 - GNASSINGBE Emilie Koboyo - @+228 93 26 69 57
 - DOUMBIA Aïchata  - @+228 70 90 99 77
 - KORDOHOU Errath - @+228 91 02 15 05
 
 Lien du projet: https://github.com/THE07s/GarderMapBot.git
 
-## IX.Remerciements
+## IX. Remerciements
 😶‍🌫️
