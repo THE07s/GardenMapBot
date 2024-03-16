@@ -8,7 +8,7 @@
 
 ## Sommaire
 
-[I.Qui sommes-nous?](#iqui-sommes-nous-?)
+[I.Qui sommes-nous?](https://github.com/THE07s/GardenMapBot/blob/main/README.md#iqui-sommes-nous-?)
 
 [II.Pourquoi ce projet?](#iipourquoi-ce-projet-?)
 
