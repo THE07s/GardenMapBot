@@ -30,7 +30,7 @@
 
 ## I. Qui sommes-nous ?
 
-Dans le cadre de la célébration de Arduino Day, les étudiants des classes préparatoires ESEO, dont nous faisons partie, disposent de deux semaines pour réaliser un projet en électronique. Le projet "*GardenMapBot (GMB)*" vise à concevoir un robot capable d'établir la cartographie d'un jardin en mesurant la temprérature, la température et l'ensoleillement.
+Dans le cadre de la célébration de Arduino Day, les étudiants des classes préparatoires ESEO, dont nous faisons partie, disposent de deux semaines pour réaliser un projet en électronique. Le projet "**_GardenMapBot (GMB)_**" vise à concevoir un robot capable d'établir la cartographie d'un jardin en mesurant la temprérature, la température et l'ensoleillement.
 Notre équipe est composée d'étudiants qui travaillent ensemnle pour atteindre notre objectif.
 
    ### Composition de l'équipe
