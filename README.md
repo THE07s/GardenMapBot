@@ -28,15 +28,15 @@
 
 ## I.Qui sommes-nous ?
 
-## Pourquoi ce projet ?
+## II.Pourquoi ce projet ?
 
-## Fonctionnalités
+## III.Fonctionnalités
 - **Cartographie thermique**
 - **Cartographie de l'humidité**
 - **Cartographie de l'ensoleillement**
 - **Conseils de jardinage**
 
-## Liste du matériel du projet final
+## IV.Liste du matériel du projet final
 | **Système**     | **Arduino**            | **Espressif**           |
 | --------------- | ---------------------- | ----------------------- |
 | 🖥️ **Microcontrôleur** | Arduino Uno        | ESP-32-CAM             |
@@ -48,10 +48,10 @@
 |                 | - 🔋 Batterie : rechargeable et légère | - 🔋 Batterie : rechargeable et légère |
 |                 | - 🛡️ Châssis : PLA     | - 🛡️ Châssis : PLA     |
 
-## Installation du projet final
+## V.Installation du projet final
 😶‍🌫️
 
-## Notre parcours
+## VI.Notre parcours
 
 Le projet finale implique un robot entièrement autonome, capable de faire la cartographie d'un jardin de forme complexe. Mais avant d'en arriver à ce résultat final il faut que nous adoptions une méthode itérative. Ainsi dans un premier temps, le contenu du projet se limitera à celui-ci.
 
@@ -65,18 +65,18 @@ Le projet finale implique un robot entièrement autonome, capable de faire la ca
 
 En connaissance de ceci, voici le modèle 3D que nous avons réalisé dans fusion :
 
-## Contributions
+## VII.Contributions
 😶‍🌫️
 
 ## Licence
 Distribué sous la Licence Apache-2.0 license. Voir `LICENSE` pour plus d'informations.
 
-## Contacts
+## VIII.Contacts
 - GNASSINGBE Emilie Koboyo - @+228 93 26 69 57
 - DOUMBIA Aïchata  - @+228 70 90 99 77
 - KORDOHOU Errath - @+228 91 02 15 05
 
 Lien du projet: https://github.com/THE07s/GarderMapBot.git
 
-## Remerciements
+## IX.Remerciements
 😶‍🌫️
