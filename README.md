@@ -10,9 +10,11 @@
 
 [I.Qui sommes-nous?](#iqui-sommes-nous-?)
 
-[II.Pourquoi ce projet?]
+[II.Pourquoi ce projet?](#iipourquoi-ce-projet-?)
 
-[III.Fonctionnalités]
+[III.Fonctionnalités](#iiifonctionnalités)
+
+[IV.Fonctionnalités](#ivliste-du-matériel-du-projet-final)
 
 ## I.Qui sommes-nous ?
 
