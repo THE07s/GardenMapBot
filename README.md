@@ -34,7 +34,7 @@
 😶‍🌫️
 
 ## Notre parcours (Mily)
-Le projet finale implique un robot entièrement autonome, capable de faire la cartographie d'un jardin de forme complexe. Mais avant d'en arriver à ce résultat final il fau$
+Le projet finale implique un robot entièrement autonome, capable de faire la cartographie d'un jardin de forme complexe. Mais avant d'en arriver à ce résultat final il faut que nous adoptions une méthode itérative. Ainsi dans un premier temps, le contenu du projet se limitera à celui-ci.
 
 | **Système**     | **Arduino**               |
 | --------------- | ------------------------- |
@@ -43,6 +43,8 @@ Le projet finale implique un robot entièrement autonome, capable de faire la ca
 |                 | - 🌅 Photorésistance × 1  |
 |                 | - 🔊 Capteur ultrason × 3 |
 | 🛠️ **Autres*    | - 🛡️ Châssis : PLA        |
+
+En connaissance de ceci, voici le modèle 3D que nous avons réalisé dans fusion :
 
 ## Contributions
 😶‍🌫️
