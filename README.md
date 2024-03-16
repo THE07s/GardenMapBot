@@ -14,7 +14,17 @@
 
 [III.Fonctionnalités](#iiifonctionnalités)
 
-[IV.Fonctionnalités](#ivliste-du-matériel-du-projet-final)
+[IV.Liste du matériel du projet final](#ivliste-du-matériel-du-projet-final)
+
+[V.Installation du projet final](#vinstallation-du-projet-final)
+
+[VI.Notre parcours](#vinotre-parcours)
+
+[VII.Contributions](#viicontributions)
+
+[VIII.Contacts](#viiicontacts)
+
+[XI.Remerciemments](#xiremerciements)
 
 ## I.Qui sommes-nous ?
 
