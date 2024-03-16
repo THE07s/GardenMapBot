@@ -6,7 +6,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Le GardenMapBot (GMB) est un robot conçu pour cartographier les jardins en mesurant la température, l'humidité et l'ensoleillement. Ces données lui permettent de fournir des conseils pour optimiser la croissance et la santé des plantes.
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-## ⚠️⚠️️️️️Implémenter un sommaire pour que ce soit plus facile et intéressant⚠️️️️⚠️
+## Sommaire
 
 ## Qui sommes-nous ?
 
