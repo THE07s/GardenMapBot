@@ -8,7 +8,7 @@
 
 ## ⚠️⚠️️️️️Implémenter un sommaire pour que ce soit plus facile et intéressant⚠⚠️️️️
 
-## Qui somme-nous ?
+## Qui sommes-nous ?
 
 ## Pourquoi ce projet ?
 
