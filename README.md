@@ -6,13 +6,19 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Le GardenMapBot (GMB) est un robot conçu pour cartographier les jardins en mesurant la température, l'humidité et l'ensoleillement. Ces données lui permettent de fournir des conseils pour optimiser la croissance et la santé des plantes.
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
+## ⚠️⚠️️️️️Implémenter un sommaire pour que ce soit plus facile et intéressant⚠⚠️️️️
+
+## Qui somme-nous ?
+
+## Pourquoi ce projet ?
+
 ## Fonctionnalités
 - **Cartographie thermique**
 - **Cartographie de l'humidité**
 - **Cartographie de l'ensoleillement**
 - **Conseils de jardinage**
 
-## Liste du matériel
+## Liste du matériel du projet final
 | **Système**     | **Arduino**            | **Espressif**           |
 | --------------- | ---------------------- | ----------------------- |
 | 🖥️ **Microcontrôleur** | Arduino Uno        | ESP-32-CAM             |
@@ -24,8 +30,10 @@
 |                 | - 🔋 Batterie : rechargeable et légère | - 🔋 Batterie : rechargeable et légère |
 |                 | - 🛡️ Châssis : PLA     | - 🛡️ Châssis : PLA     |
 
-## Installation
+## Installation du projet final
 😶‍🌫️
+
+## Notre parcours (Mily)
 
 ## Contributions
 😶‍🌫️
