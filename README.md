@@ -14,7 +14,7 @@
 
 [III.Fonctionnalités]
 
-## Qui sommes-nous ?
+## I.Qui sommes-nous ?
 
 ## Pourquoi ce projet ?
 
