@@ -20,10 +20,6 @@
 
 [VI. Notre parcours](#vinotre-parcours)
 
-   [A. Conception et Mise en marche](#aconception-et-mise-en-marche)
-
-   [B. Problèmes](#bproblèmes)
-
 [VII. Contributions](#viicontributions)
 
 [VIII. Contacts](#viiicontacts)
