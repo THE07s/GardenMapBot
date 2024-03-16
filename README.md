@@ -34,6 +34,15 @@
 😶‍🌫️
 
 ## Notre parcours (Mily)
+Le projet finale implique un robot entièrement autonome, capable de faire la cartographie d'un jardin de forme complexe. Mais avant d'en arriver à ce résultat final il fau$
+
+| **Système**     | **Arduino**               |
+| --------------- | ------------------------- |
+| 🖥️ **Microcontrôleur** | Arduino Uno        |
+| 📡 **Capteurs** | - DHT22 × 1               |
+|                 | - 🌅 Photorésistance × 1  |
+|                 | - 🔊 Capteur ultrason × 3 |
+| 🛠️ **Autres*    | - 🛡️ Châssis : PLA        |
 
 ## Contributions
 😶‍🌫️
