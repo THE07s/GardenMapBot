@@ -33,7 +33,8 @@
 ## Installation du projet final
 😶‍🌫️
 
-## Notre parcours (Mily)
+## Notre parcours
+
 Le projet finale implique un robot entièrement autonome, capable de faire la cartographie d'un jardin de forme complexe. Mais avant d'en arriver à ce résultat final il faut que nous adoptions une méthode itérative. Ainsi dans un premier temps, le contenu du projet se limitera à celui-ci.
 
 | **Système**     | **Arduino**               |
