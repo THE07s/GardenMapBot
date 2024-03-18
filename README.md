@@ -4,32 +4,36 @@
 <img align="left" src="https://github.com/THE07s/GarderMapBot/assets/101391118/45ccf17c-52ff-4c6a-bc98-bd0e7e535424" alt="GMD logo" width="70%" />
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GaMBo est un robot conçu pour cartographier les jardins en mesurant la température, l'humidité et l'ensoleillement. Ces données lui permettent de fournir des conseils pour optimiser la croissance et la santé des plantes.
+
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Sommaire
 
-[I. Qui sommes-nous?](#iqui-sommes-nous-?)
+[I. Qui sommes-nous?](#i-qui-sommes-nous-)
 
-[II. Pourquoi ce projet?](#iipourquoi-ce-projet-?)
+[II. Pourquoi ce projet?](#ii-pourquoi-ce-projet-)
 
-[III. Fonctionnalités](#iiifonctionnalités)
+[III. Fonctionnalités](#iii-fonctionnalités)
 
-[IV. Liste du matériel du projet final](#ivliste-du-matériel-du-projet-final)
+[IV. Liste du matériel du projet final](#iv-liste-du-matériel-du-projet-final)
 
-[V. Installation du projet final](#vinstallation-du-projet-final)
+[V. Installation du projet final](#v-installation-du-projet-final)
 
-[VI. Notre parcours](#vinotre-parcours)
+[VI. Notre parcours](#vi-notre-parcours)
 
-[VII. Contributions](#viicontributions)
+[VII. Contributions](#vii-contributions)
 
-[VIII. Contacts](#viiicontacts)
+[VIII. Contacts](#viii-contacts)
 
-[XI. Remerciemments](#xiremerciements)
+[XI. Remerciements](#xi-remerciements)
 
 ## I. Qui sommes-nous ?
 
+Nous sommes un groupe d'étudiants passionnés, inscrits en classe préparatoire au cycle ingénieur à l'ESEO - Cours Lumière, située au Togo.
+
 ## II. Pourquoi ce projet ?
-Dans le cadre de la célébration de Arduino Day, les étudiants des classes préparatoires ESEO, dont nous faisons partie, disposent de deux semaines pour réaliser un projet en électronique
+
+Inspirés par l'événement mondial Arduino Day, notre équipe a saisi l'opportunité offerte par nos enseignants de concevoir des projets de robotique. Nous espérons contribuer à l'amélioration de la culture des plantes et à la promotion de pratiques agricoles durables dans notre communauté et au-delà.
 
 ## III. Fonctionnalités
 - **Cartographie thermique**
