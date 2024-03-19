@@ -89,6 +89,7 @@ Distribué sous la Licence Apache-2.0. Voir `LICENSE` pour plus d'informations.
 - KORDOHOU Errath - +228 91 02 15 05
 
 Lien du projet : [GitHub - GaMBo 🌸](https://github.com/THE07s/GarderMapBot.git)
+
 Pour realise le model 3D nous avons cherché les modèles 3d des différents composants dont voici les lien:
 https://grabcad.com/library/dht22-module-1
 https://grabcad.com/library/servo-motor-sg90-6
