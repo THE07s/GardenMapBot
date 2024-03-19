@@ -95,6 +95,7 @@ Distribué sous la Licence Apache-2.0. Voir `LICENSE` pour plus d'informations.
 Lien du projet : [GitHub - GaMBo 🌸](https://github.com/THE07s/GarderMapBot.git)
 
 Pour réaliser le model 3D nous avons cherché les modèles 3d des différents composants dont voici les lien:
+
 [DHT22 ](https://grabcad.com/library/dht22-module-1)
 
 [⚙️servomoteur](https://grabcad.com/library/servo-motor-sg90-6)
