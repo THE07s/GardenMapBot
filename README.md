@@ -14,32 +14,29 @@
 
 [II. Pourquoi ce projet?](#ii-pourquoi-ce-projet-)
 
-[III. Documentation](#iii-documentation)
+[III. Fonctionnalités](#iii-fonctionnalités)
 
-[IV. Fonctionnalités](#iii-fonctionnalités)
+[IV. Liste du matériel du projet final](#iv-liste-du-matériel-du-projet-final)
 
-[V. Liste du matériel du projet final](#iv-liste-du-matériel-du-projet-final)
+[V. Installation du projet final](#v-installation-du-projet-final)
 
-[VI. Installation du projet final](#v-installation-du-projet-final)
+[VI. Notre parcours](#vi-notre-parcours)
 
-[VII. Notre parcours](#vi-notre-parcours)
+[VII. Contributions](#vii-contributions)
 
-[VIII. Contributions](#vii-contributions)
+[VIII. Contacts](#viii-contacts)
 
-[X. Contacts](#viii-contacts)
+[IX. Remerciements](#xi-remerciements)
 
-[XI. Remerciements](#xi-remerciements)
-
-## I. Qui sommes-nous ? <a id="i-qui-sommes-nous-"></a>
+## I. Qui sommes-nous ?
 
 Nous sommes un groupe de 4 étudiants passionnés, inscrits en classe préparatoire au cycle ingénieur à ESEO - Cours Lumière, située au Togo. L'équipe est constituée de GNASSINGBE Emilie, DOUMBIA Aïchata, KORDOHOU Errath et LEENAERTS Loïc (chef de projet). 
 
-## II. Pourquoi ce projet ? <a id="ii-pourquoi-ce-projet-"></a>
+## II. Pourquoi ce projet ?
 
 Inspirés par l'événement mondial Arduino Day, notre équipe a saisi l'opportunité offerte par nos enseignants de concevoir des projets de robotique. Nous aspirons à améliorer la culture des plantes et à encourager l'utilisation de la tech pour faciliter et optimiser l'agriculture sur notre continent.
 
-## III. Documentation <a id="iii-documentation"></a>
-## IV. Fonctionnalités <a id="iv-fonctionnalités"></a>
+## III. Fonctionnalités
 
 - **Prise en charge de formes de jardins quelconques**
 - **Cartographie thermique**
@@ -47,7 +44,7 @@ Inspirés par l'événement mondial Arduino Day, notre équipe a saisi l'opportu
 - **Cartographie de l'ensoleillement**
 - **Conseils de jardinage**
 
-## V. Liste du matériel du projet final <a id="v-liste-du-matériel-du-projet-final"></a>
+## IV. Liste du matériel du projet final
 
 | **Système**     | **Arduino**                     | **Espressif**                        |
 | --------------- | ------------------------------- | ------------------------------------ |
@@ -61,11 +58,11 @@ Inspirés par l'événement mondial Arduino Day, notre équipe a saisi l'opportu
 |                 | - 🔋 Batterie : rechargeable et légère | - 🔋 Batterie : rechargeable et légère |
 |                 | - 🛡️ Châssis : PLA             | - 🛡️ Châssis : PLA                   |
 
-## V. Installation du projet final <a id="v-installation-du-projet-final"></a>
+## V. Installation du projet final
 
 😶‍🌫️
 
-## VII. Notre parcours <a id="vi-notre-parcours"></a>
+## VI. Notre parcours
 
 Le projet final implique un robot entièrement autonome, capable de cartographier un jardin de forme complexe. Mais avant d'atteindre ce résultat final, nous devons adopter une méthode itérative. Ainsi, dans un premier temps, le projet se limitera à ces fonctionalités :
 
@@ -76,15 +73,15 @@ Le projet final implique un robot entièrement autonome, capable de cartographie
 
 En connaissance de cela, voici le modèle 3D que nous avons réalisé dans Fusion :
 
-## VIII. Contributions <a id="vii-contributions"></a>
+## VII. Contributions
 
 😶‍🌫️
 
-## Licence <a id="viii-contacts"></a>
+## Licence
 
 Distribué sous la Licence Apache-2.0. Voir `LICENSE` pour plus d'informations.
 
-## X. Contacts <a id="i-qui-sommes-nous-"></a>
+## VIII. Contacts
 
 - LEENAERTS Loïc Harry - +228 79 62 67 84
 - GNASSINGBE Emilie Koboyo - +228 93 26 69 57
