@@ -71,6 +71,10 @@ Le projet final implique un robot entièrement autonome, capable de cartographie
 - **Cartographie de l'humidité**
 - **Cartographie de l'ensoleillement**
 
+Nous avons eu à realiser un schéma pour avoir une idée de le forme du robot et de l'emplacement des différents composants 
+
+![WhatsApp Image 2024-03-16 à 18 36 07_26cb773e](https://github.com/THE07s/GardenMapBot/assets/162814213/a4219b9c-6938-49d5-806b-3c5e8db3858a)
+
 En connaissance de cela, voici le modèle 3D que nous avons réalisé dans Fusion :
 
 ## VII. Contributions
