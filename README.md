@@ -48,7 +48,7 @@ Inspirés par l'événement mondial Arduino Day, notre équipe a saisi l'opportu
 
 | **Système**     | **Arduino**                     | **Espressif**                        |
 | --------------- | ------------------------------- | ------------------------------------ |
-| 🖥️ **Microcontrôleur** | Arduino NANO                | ESP-32-CAM                           |
+| 🖥️ **Microcontrôleur** | Arduino NANO                | ESP-32-CAM                       |
 | 📡 **Capteurs** | - DHT22 × 1                   | - DHT22 × 1                          |
 |                 | - 🌅 Photorésistance × 1      | - 🌅 Photorésistance × 1             |
 |                 | - 🔊 Capteur ultrason × 3     | - 🔊 Capteur ultrason × 3            |
@@ -70,13 +70,20 @@ Le projet final implique un robot entièrement autonome, capable de cartographie
 - **Cartographie thermique**
 - **Cartographie de l'humidité**
 - **Cartographie de l'ensoleillement**
- 
-<img align="right" src="![WhatsApp Image 2024-03-16 à 18 36 07_26cb773e](https://github.com/THE07s/GardenMapBot/assets/162814213/70662d54-9836-45c9-911c-e45cc48052c4)
-" alt="schema GMB" width="60%" />
 
-Nous avons eu à realiser un schéma pour avoir une idée de le forme du robot et de l'emplacement des différents composants
+<img align="left" src="https://github.com/THE07s/GardenMapBot/assets/162814213/61cb331c-02a5-4488-8f8d-96ea3b070785" alt="schémaGMB" width="50%" />Nous avons eu à realiser un schéma pour avoir une idée de le forme du robot et de l'emplacement des différents composants
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
 
 En connaissance de cela, voici le modèle 3D que nous avons réalisé dans Fusion :
+
+
+
+
+
 
 ## VII. Contributions
 
@@ -89,9 +96,11 @@ Distribué sous la Licence Apache-2.0. Voir `LICENSE` pour plus d'informations.
 ## VIII. Contacts
 
 - LEENAERTS Loïc Harry - +228 79 62 67 84
-- GNASSINGBE Emilie Koboyo - +228 93 26 69 57
-- DOUMBIA Aïchata  - +228 70 90 99 77
-- KORDOHOU Errath - +228 91 02 15 05
+
+- <img align="right" src="https://github.com/THE07s/GardenMapBot/assets/162814213/47a21ab6-4af5-423a-b38b-64732f9e6863" alt="emily" width="04%"/>GNASSINGBE Emilie Koboyo - +228 93 26 69 57
+- <img align="right" src="https://github.com/THE07s/GardenMapBot/assets/162814213/64d60790-987e-49c4-a338-266067e54d52"
+ alt="Aïchata" width="04%"/> DOUMBIA Aïchata  - +228 70 90 99 77
+- <img align="right" src="https://github.com/THE07s/GardenMapBot/assets/162814213/1ca73ac7-0029-4b0b-93ad-0a4ae5e75d6e" alt="emily" width="04%"/>KORDOHOU Errath - +228 91 02 15 05
 
 Lien du projet : [GitHub - GaMBo 🌸](https://github.com/THE07s/GarderMapBot.git)
 
