@@ -14,17 +14,19 @@
 
 [II. Pourquoi ce projet?](#ii-pourquoi-ce-projet-)
 
-[III. Fonctionnalités](#iii-fonctionnalités)
+[III. Documentation](#iii-documentation)
 
-[IV. Liste du matériel du projet final](#iv-liste-du-matériel-du-projet-final)
+[IV. Fonctionnalités](#iii-fonctionnalités)
 
-[V. Installation du projet final](#v-installation-du-projet-final)
+[V. Liste du matériel du projet final](#iv-liste-du-matériel-du-projet-final)
 
-[VI. Notre parcours](#vi-notre-parcours)
+[VI. Installation du projet final](#v-installation-du-projet-final)
 
-[VII. Contributions](#vii-contributions)
+[VII. Notre parcours](#vi-notre-parcours)
 
-[VIII. Contacts](#viii-contacts)
+[VIII. Contributions](#vii-contributions)
+
+[X. Contacts](#viii-contacts)
 
 [XI. Remerciements](#xi-remerciements)
 
@@ -45,7 +47,7 @@ Inspirés par l'événement mondial Arduino Day, notre équipe a saisi l'opportu
 - **Cartographie de l'ensoleillement**
 - **Conseils de jardinage**
 
-## IV. Liste du matériel du projet final <a id="iv-liste-du-matériel-du-projet-final"></a>
+## V. Liste du matériel du projet final <a id="v-liste-du-matériel-du-projet-final"></a>
 
 | **Système**     | **Arduino**                     | **Espressif**                        |
 | --------------- | ------------------------------- | ------------------------------------ |
@@ -63,7 +65,7 @@ Inspirés par l'événement mondial Arduino Day, notre équipe a saisi l'opportu
 
 😶‍🌫️
 
-## VI. Notre parcours <a id="vi-notre-parcours"></a>
+## VII. Notre parcours <a id="vi-notre-parcours"></a>
 
 Le projet final implique un robot entièrement autonome, capable de cartographier un jardin de forme complexe. Mais avant d'atteindre ce résultat final, nous devons adopter une méthode itérative. Ainsi, dans un premier temps, le projet se limitera à ces fonctionalités :
 
@@ -74,7 +76,7 @@ Le projet final implique un robot entièrement autonome, capable de cartographie
 
 En connaissance de cela, voici le modèle 3D que nous avons réalisé dans Fusion :
 
-## VII. Contributions <a id="vii-contributions"></a>
+## VIII. Contributions <a id="vii-contributions"></a>
 
 😶‍🌫️
 
@@ -82,7 +84,7 @@ En connaissance de cela, voici le modèle 3D que nous avons réalisé dans Fusio
 
 Distribué sous la Licence Apache-2.0. Voir `LICENSE` pour plus d'informations.
 
-## VIII. Contacts <a id="i-qui-sommes-nous-"></a>
+## X. Contacts <a id="i-qui-sommes-nous-"></a>
 
 - LEENAERTS Loïc Harry - +228 79 62 67 84
 - GNASSINGBE Emilie Koboyo - +228 93 26 69 57
