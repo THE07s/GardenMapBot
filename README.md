@@ -76,14 +76,7 @@ Le projet final implique un robot entièrement autonome, capable de cartographie
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
-
-
 En connaissance de cela, voici le modèle 3D que nous avons réalisé dans Fusion :
-
-
-
-
-
 
 ## VII. Contributions
 
@@ -97,10 +90,10 @@ Distribué sous la Licence Apache-2.0. Voir `LICENSE` pour plus d'informations.
 
 - LEENAERTS Loïc Harry - +228 79 62 67 84
 
-- <img align="right" src="https://github.com/THE07s/GardenMapBot/assets/162814213/47a21ab6-4af5-423a-b38b-64732f9e6863" alt="emily" width="04%"/>GNASSINGBE Emilie Koboyo - +228 93 26 69 57
+- <img align="right" src="https://github.com/THE07s/GardenMapBot/assets/162814213/47a21ab6-4af5-423a-b38b-64732f9e6863" alt="emily" width="04%"/>GNASSINGBE Emilie Koboyo - +228 93 26 69 57 <br><br>
 - <img align="right" src="https://github.com/THE07s/GardenMapBot/assets/162814213/64d60790-987e-49c4-a338-266067e54d52"
- alt="Aïchata" width="04%"/> DOUMBIA Aïchata  - +228 70 90 99 77
-- <img align="right" src="https://github.com/THE07s/GardenMapBot/assets/162814213/1ca73ac7-0029-4b0b-93ad-0a4ae5e75d6e" alt="emily" width="04%"/>KORDOHOU Errath - +228 91 02 15 05
+ alt="Aïchata" width="04%"/> DOUMBIA Aïchata  - +228 70 90 99 77 <br><br>
+- <img align="right" src="https://github.com/THE07s/GardenMapBot/assets/162814213/1ca73ac7-0029-4b0b-93ad-0a4ae5e75d6e" alt="emily" width="04%"/>KORDOHOU Errath - +228 91 02 15 05 <br><br>
 
 Lien du projet : [GitHub - GaMBo 🌸](https://github.com/THE07s/GarderMapBot.git)
 
