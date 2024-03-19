@@ -48,7 +48,7 @@ Inspirés par l'événement mondial Arduino Day, notre équipe a saisi l'opportu
 
 | **Système**     | **Arduino**                     | **Espressif**                        |
 | --------------- | ------------------------------- | ------------------------------------ |
-| 🖥️ **Microcontrôleur** | Arduino Uno                | ESP-32-CAM                           |
+| 🖥️ **Microcontrôleur** | Arduino NANO                | ESP-32-CAM                           |
 | 📡 **Capteurs** | - DHT22 × 1                   | - DHT22 × 1                          |
 |                 | - 🌅 Photorésistance × 1      | - 🌅 Photorésistance × 1             |
 |                 | - 🔊 Capteur ultrason × 3     | - 🔊 Capteur ultrason × 3            |
@@ -95,14 +95,21 @@ Distribué sous la Licence Apache-2.0. Voir `LICENSE` pour plus d'informations.
 Lien du projet : [GitHub - GaMBo 🌸](https://github.com/THE07s/GarderMapBot.git)
 
 Pour réaliser le model 3D nous avons cherché les modèles 3d des différents composants dont voici les lien:
-https://grabcad.com/library/dht22-module-1
-https://grabcad.com/library/servo-motor-sg90-6
-https://grabcad.com/library/ultrasonic-sensor-hc-sr04-3
-https://grabcad.com/library/ublox-m6-with-ceramic-antenna-1
-https://grabcad.com/library/gl5528-photoresistor-1
-https://grabcad.com/library/arduino-nano--1
-https://grabcad.com/library/arduino-nano-2 
-https://cults3d.com/fr/mod%C3%A8le-3d/art/wheel-for-sg90-servo 
+[DHT22 ](https://grabcad.com/library/dht22-module-1)
+
+[⚙️servomoteur](https://grabcad.com/library/servo-motor-sg90-6)
+
+[🔊Capteur ultrason](https://grabcad.com/library/ultrasonic-sensor-hc-sr04-3)
+
+[🌍 Module GPS ](https://grabcad.com/library/ublox-m6-with-ceramic-antenna-1)
+
+[🌅 Photorésistance](https://grabcad.com/library/gl5528-photoresistor-1)
+
+[🖥️arduino NANO](https://grabcad.com/library/arduino-nano--1)
+
+[shield arduino NANO](https://grabcad.com/library/arduino-nano-2 )
+
+[🛞roue servomoteur](https://cults3d.com/fr/mod%C3%A8le-3d/art/wheel-for-sg90-servo )
 
 ## IX. Remerciements <a id="xi-remerciements"></a>
 
