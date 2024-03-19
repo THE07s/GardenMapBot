@@ -36,7 +36,8 @@ Nous sommes un groupe de 4 étudiants passionnés, inscrits en classe préparato
 
 Inspirés par l'événement mondial Arduino Day, notre équipe a saisi l'opportunité offerte par nos enseignants de concevoir des projets de robotique. Nous aspirons à améliorer la culture des plantes et à encourager l'utilisation de la tech pour faciliter et optimiser l'agriculture sur notre continent.
 
-## III. Fonctionnalités <a id="iii-fonctionnalités"></a>
+## III. Documentation <a id="iii-documentation"></a>
+## IV. Fonctionnalités <a id="iv-fonctionnalités"></a>
 
 - **Prise en charge de formes de jardins quelconques**
 - **Cartographie thermique**
