@@ -77,7 +77,8 @@ Le projet final implique un robot entièrement autonome, capable de cartographie
 
 
 En connaissance de cela, voici le modèle 3D que nous avons réalisé dans Fusion :
-
+Nous avons ainsi modelise la partie du dessous et la partie du dessus qui seront assemblé par la suite 
+[partie du dessous](https://github.com/THE07s/GardenMapBot/commit/5d187056650ea87102ee7a9651a22146a39f88b1 )
 ## VII. Contributions
 
 M. Sylvestre OLANLO
