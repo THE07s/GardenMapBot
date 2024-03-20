@@ -49,7 +49,7 @@ Inspirés par l'événement mondial Arduino Day, notre équipe a saisi l'opportu
 | **Système**     | **Arduino**                     | **Espressif**                        |
 | --------------- | ------------------------------- | ------------------------------------ |
 | 🖥️ **Microcontrôleur** | Arduino NANO                | ESP-32-CAM                       |
-| 📡 **Capteurs** | - DHT22 × 1                   | - DHT22 × 1                          |
+| 📡 **Capteurs** | - 🌡️💧DHT22 × 1               | - 🌡️💧DHT22 × 1                       |
 |                 | - 🌅 Photorésistance × 1      | - 🌅 Photorésistance × 1             |
 |                 | - 🔊 Capteur ultrason × 3     | - 🔊 Capteur ultrason × 3            |
 |                 | - 📷 Module caméra             |                                      |
@@ -83,7 +83,7 @@ Lors de la phase de conception de notre robot intelligent, nous avons dû réali
 
 ### Schéma du Robot
 
-Pour débuter, nous avons utilisé le [DHT22](https://grabcad.com/library/dht22-module-1), un capteur d'humidité et de température, afin de réguler l'environnement interne du robot. Ce composant essentiel a été placé stratégiquement pour assurer une mesure précise dans toutes les conditions.
+Pour débuter, nous avons utilisé le [🌡️💧DHT22](https://grabcad.com/library/dht22-module-1), un capteur d'humidité et de température, afin de réguler l'environnement interne du robot. Ce composant essentiel a été placé stratégiquement pour assurer une mesure précise dans toutes les conditions.
 
 Ensuite, nous avons intégré le [⚙️servomoteur](https://grabcad.com/library/servo-motor-sg90-6) pour contrôler les mouvements mécaniques du robot. Son positionnement a été soigneusement étudié pour garantir une manipulation précise des éléments externes.
 
