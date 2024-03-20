@@ -1,4 +1,4 @@
-z# GardenMapBot (GaMBo 🌸)
+# GardenMapBot (GaMBo 🌸)
 
 ## À propos du projet
 
@@ -80,7 +80,8 @@ En connaissance de cela, voici le modèle 3D que nous avons réalisé dans Fusio
 
 ## VII. Contributions
 
-😶‍🌫️
+M. Sylvestre OLANLO
+M.
 
 ## Licence
 
