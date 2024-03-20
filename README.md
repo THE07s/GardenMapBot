@@ -6,7 +6,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GaMBo 🌸 est un robot conçu pour cartographier les jardins en mesurant la température, l'humidité et l'ensoleillement. Ces données lui permettent de fournir des conseils pour optimiser la croissance et la santé des plantes.
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br clear="left"/>
 
 ## Sommaire
 
@@ -59,10 +59,11 @@ Inspirés par l'événement mondial Arduino Day, notre équipe a saisi l'opportu
 |                 | - 🛡️ Châssis : PLA             | - 🛡️ Châssis : PLA                   |
 
 ## V. Installation du projet final
-
 😶‍🌫️
 
 ## VI. Notre parcours
+
+<img align="right" src="https://github.com/THE07s/GardenMapBot/assets/162814213/61cb331c-02a5-4488-8f8d-96ea3b070785" alt="schémaGMB" width="50%" />
 
 Le projet final implique un robot entièrement autonome, capable de cartographier un jardin de forme complexe. Mais avant d'atteindre ce résultat final, nous devons adopter une méthode itérative. Ainsi, dans un premier temps, le projet se limitera à ces fonctionalités :
 
@@ -71,14 +72,35 @@ Le projet final implique un robot entièrement autonome, capable de cartographie
 - **Cartographie de l'humidité**
 - **Cartographie de l'ensoleillement**
 
-<img align="left" src="https://github.com/THE07s/GardenMapBot/assets/162814213/61cb331c-02a5-4488-8f8d-96ea3b070785" alt="schémaGMB" width="50%" />Nous avons eu à realiser un schéma pour avoir une idée de le forme du robot et de l'emplacement des différents composants
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
-En connaissance de cela, voici le modèle 3D que nous avons réalisé dans Fusion :
-Nous avons ainsi modelise la partie du dessous et la partie du dessus qui seront assemblé par la suite 
-[partie du dessous](https://github.com/THE07s/GardenMapBot/commit/5d187056650ea87102ee7a9651a22146a39f88b1 )
+Nous avons eu à realiser un schéma pour avoir une idée de le forme du robot et de l'emplacement des différents composants
+
+<br clear="right"/>
+<br>
+
+Lors de la phase de conception de notre robot intelligent, nous avons dû réaliser un schéma détaillé pour visualiser la forme du robot et planifier l'emplacement optimal des différents composants. Cette étape cruciale nous permet de garantir une intégration efficace et une fonctionnalité optimale de chaque élément.
+
+### Schéma du Robot
+
+Pour débuter, nous avons utilisé le [DHT22](https://grabcad.com/library/dht22-module-1), un capteur d'humidité et de température, afin de réguler l'environnement interne du robot. Ce composant essentiel a été placé stratégiquement pour assurer une mesure précise dans toutes les conditions.
+
+Ensuite, nous avons intégré le [⚙️servomoteur](https://grabcad.com/library/servo-motor-sg90-6) pour contrôler les mouvements mécaniques du robot. Son positionnement a été soigneusement étudié pour garantir une manipulation précise des éléments externes.
+
+Un autre composant crucial est le [🔊Capteur ultrason](https://grabcad.com/library/ultrasonic-sensor-hc-sr04-3), utilisé pour la détection d'obstacles. Nous avons choisi son emplacement de manière à maximiser la couverture de détection tout en minimisant les interférences.
+
+### Composants Supplémentaires
+
+Le [🌍 Module GPS](https://grabcad.com/library/ublox-m6-with-ceramic-antenna-1) a été intégré pour permettre au robot de naviguer efficacement dans son environnement. Son placement a été optimisé pour assurer une réception satellite optimale.
+
+La [🌅 Photorésistance](https://grabcad.com/library/gl5528-photoresistor-1) a également été incluse pour détecter les variations de luminosité, permettant au robot de s'adapter à différentes conditions d'éclairage. Son emplacement a été choisi avec soin pour garantir une mesure précise de la lumière ambiante.
+
+### Contrôle et Alimentation
+
+Pour coordonner toutes ces fonctions, nous avons intégré l'[🖥️arduino NANO](https://grabcad.com/library/arduino-nano--1), une carte de développement compacte et puissante. Son positionnement central facilite la connexion avec tous les autres composants.
+
+Enfin, pour protéger et faciliter la connexion de l'Arduino Nano, nous avons ajouté un [shield arduino NANO](https://grabcad.com/library/arduino-nano-2), assurant ainsi une intégration propre et sécurisée.
+
 ## VII. Contributions
 
 M. Sylvestre OLANLO
@@ -90,32 +112,16 @@ Distribué sous la Licence Apache-2.0. Voir `LICENSE` pour plus d'informations.
 
 ## VIII. Contacts
 
-- <img align="right" src="https://github.com/THE07s/GardenMapBot/assets/162814213/7ce17a51-531f-4dd5-ab0d-2510791ebc77" alt="Loïc" width="04%"/>LEENAERTS Loïc Harry - +228 79 62 67 84 <br><br>
-- <img align="right" src="https://github.com/THE07s/GardenMapBot/assets/162814213/47a21ab6-4af5-423a-b38b-64732f9e6863" alt="emily" width="04%"/>GNASSINGBE Emilie Koboyo - +228 93 26 69 57 <br><br>
-- <img align="right" src="https://github.com/THE07s/GardenMapBot/assets/162814213/64d60790-987e-49c4-a338-266067e54d52"
- alt="Aïchata" width="04%"/> DOUMBIA Aïchata  - +228 70 90 99 77 <br><br>
-- <img align="right" src="https://github.com/THE07s/GardenMapBot/assets/162814213/1ca73ac7-0029-4b0b-93ad-0a4ae5e75d6e" alt="emily" width="04%"/>KORDOHOU Errath - +228 91 02 15 05 <br><br>
+- <img align="right" src="https://github.com/THE07s/GardenMapBot/assets/162814213/7ce17a51-531f-4dd5-ab0d-2510791ebc77" alt="Loïc" width="14%"/> LEENAERTS Loïc Harry - 📞 +228 79 62 67 84 <br clear="right"/>
+<br>
+- <img align="right" src="https://github.com/THE07s/GardenMapBot/assets/162814213/47a21ab6-4af5-423a-b38b-64732f9e6863" alt="Émilie" width="14%"/> GNASSINGBE Emilie Koboyo - 📞 +228 93 26 69 57 <br clear="right"/>
+<br>
+- <img align="right" src="https://github.com/THE07s/GardenMapBot/assets/162814213/64d60790-987e-49c4-a338-266067e54d52" alt="Aïchata" width="14%"/> DOUMBIA Aïchata  - 📞 +228 70 90 99 77 <br clear="right"/>
+<br>
+- <img align="right" src="https://github.com/THE07s/GardenMapBot/assets/162814213/1ca73ac7-0029-4b0b-93ad-0a4ae5e75d6e" alt="Errath" width="14%"/> KORDOHOU Errath - 📞 +228 91 02 15 05 <br clear="right"/>
+<br>
 
 Lien du projet : [GitHub - GaMBo 🌸](https://github.com/THE07s/GarderMapBot.git)
 
-Pour réaliser le model 3D nous avons cherché les modèles 3d des différents composants dont voici les lien:
-
-[DHT22 ](https://grabcad.com/library/dht22-module-1)
-
-[⚙️servomoteur](https://grabcad.com/library/servo-motor-sg90-6)
-
-[🔊Capteur ultrason](https://grabcad.com/library/ultrasonic-sensor-hc-sr04-3)
-
-[🌍 Module GPS ](https://grabcad.com/library/ublox-m6-with-ceramic-antenna-1)
-
-[🌅 Photorésistance](https://grabcad.com/library/gl5528-photoresistor-1)
-
-[🖥️arduino NANO](https://grabcad.com/library/arduino-nano--1)
-
-[shield arduino NANO](https://grabcad.com/library/arduino-nano-2 )
-
-[🛞roue servomoteur](https://cults3d.com/fr/mod%C3%A8le-3d/art/wheel-for-sg90-servo )
-
 ## IX. Remerciements <a id="xi-remerciements"></a>
-
 😶‍🌫️
