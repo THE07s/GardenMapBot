@@ -77,6 +77,8 @@ Le projet final implique un robot entièrement autonome, capable de cartographie
 
 
 En connaissance de cela, voici le modèle 3D que nous avons réalisé dans Fusion :
+Notre 
+model comprend deux face une face de dessus et une fasse de dessous qui seron ainsi assembler pour donné le robot final 
 
 ## VII. Contributions
 
@@ -88,8 +90,7 @@ Distribué sous la Licence Apache-2.0. Voir `LICENSE` pour plus d'informations.
 
 ## VIII. Contacts
 
-- LEENAERTS Loïc Harry - +228 79 62 67 84
-
+- <img align="right" src="https://github.com/THE07s/GardenMapBot/assets/162814213/7ce17a51-531f-4dd5-ab0d-2510791ebc77" alt="Loïc" width="04%"/>LEENAERTS Loïc Harry - +228 79 62 67 84 <br><br>
 - <img align="right" src="https://github.com/THE07s/GardenMapBot/assets/162814213/47a21ab6-4af5-423a-b38b-64732f9e6863" alt="emily" width="04%"/>GNASSINGBE Emilie Koboyo - +228 93 26 69 57 <br><br>
 - <img align="right" src="https://github.com/THE07s/GardenMapBot/assets/162814213/64d60790-987e-49c4-a338-266067e54d52"
  alt="Aïchata" width="04%"/> DOUMBIA Aïchata  - +228 70 90 99 77 <br><br>
