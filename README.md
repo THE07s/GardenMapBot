@@ -77,8 +77,6 @@ Le projet final implique un robot entièrement autonome, capable de cartographie
 
 
 En connaissance de cela, voici le modèle 3D que nous avons réalisé dans Fusion :
-Notre 
-model comprend deux face une face de dessus et une fasse de dessous qui seron ainsi assembler pour donné le robot final 
 
 ## VII. Contributions
 
