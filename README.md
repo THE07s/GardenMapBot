@@ -1,10 +1,10 @@
-# GardenMapBot (GaMBo 🌸)
+# GardenMapBot (GaMBo🌸)
 
 ## À propos du projet
 
 <img align="left" src="https://github.com/THE07s/GarderMapBot/assets/101391118/45ccf17c-52ff-4c6a-bc98-bd0e7e535424" alt="GMD logo" width="70%" />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GaMBo 🌸 est un robot conçu pour cartographier les jardins en mesurant la température, l'humidité et l'ensoleillement. Ces données lui permettent de fournir des conseils pour optimiser la croissance et la santé des plantes.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**GaMBo🌸** est un robot conçu pour cartographier les jardins en mesurant la température, l'humidité et l'ensoleillement. Ces données lui permettent de fournir des conseils pour optimiser la croissance et la santé des plantes.
 
 <br clear="left"/>
 
@@ -26,7 +26,9 @@
 
 [VIII. Contacts](#viii-contacts)
 
-[IX. Remerciements](#xi-remerciements)
+[IX. Problèmes](#ix-problèmes)
+
+[X. Remerciements](#x-remerciements)
 
 ## I. Qui sommes-nous ?
 
@@ -34,7 +36,7 @@ Nous sommes un groupe de 4 étudiants passionnés, inscrits en classe préparato
 
 ## II. Pourquoi ce projet ?
 
-Inspirés par l'événement mondial Arduino Day, notre équipe a saisi l'opportunité offerte par nos enseignants de concevoir des projets de robotique. Nous aspirons à améliorer la culture des plantes et à encourager l'utilisation de la tech pour faciliter et optimiser l'agriculture sur notre continent🌍.
+Inspirés par l'événement mondial Arduino Day, notre équipe a saisi l'opportunité offerte par nos enseignants de concevoir des projets de robotique. Nous aspirons à améliorer la culture des plantes et à encourager l'utilisation de la tech pour faciliter et optimiser l'agriculture sur notre continent.
 
 ## III. Fonctionnalités
 
@@ -85,7 +87,7 @@ Lors de la phase de conception de notre robot, nous avons dû réaliser un sché
 
 Pour débuter, nous avons utilisé le [🌡️💧DHT22](https://grabcad.com/library/dht22-module-1), un capteur d'humidité et de température, afin de réguler l'environnement interne du robot. Ce composant essentiel a été placé stratégiquement pour assurer une mesure précise dans toutes les conditions.
 
-Ensuite, nous avons intégré le [⚙️servomoteur](https://grabcad.com/library/servo-motor-sg90-6) pour contrôler les mouvements mécaniques du robot. Son positionnement a été soigneusement étudié pour garantir une manipulation précise des éléments externes.
+Ensuite, nous avons intégré le [⚙️Servomoteur](https://grabcad.com/library/servo-motor-sg90-6) pour contrôler les mouvements mécaniques du robot. Son positionnement a été soigneusement étudié pour garantir une manipulation précise des éléments externes.
 
 Un autre composant crucial est le [🔊Capteur ultrason](https://grabcad.com/library/ultrasonic-sensor-hc-sr04-3), utilisé pour la détection d'obstacles. Nous avons choisi son emplacement de manière à maximiser la couverture de détection tout en minimisant les interférences.
 
@@ -97,9 +99,9 @@ La [🌅 Photorésistance](https://grabcad.com/library/gl5528-photoresistor-1) a
 
 ### Contrôle et Alimentation
 
-Pour coordonner toutes ces fonctions, nous avons intégré l'[🖥️arduino NANO](https://grabcad.com/library/arduino-nano--1), une carte de développement compacte et puissante. Son positionnement central facilite la connexion avec tous les autres composants.
+Pour coordonner toutes ces fonctions, nous avons intégré l'[🖥️Arduino NANO](https://grabcad.com/library/arduino-nano--1), une carte de développement compacte et puissante. Son positionnement central facilite la connexion avec tous les autres composants.
 
-Enfin, pour protéger et faciliter la connexion de l'Arduino Nano, nous avons ajouté un [shield arduino NANO](https://grabcad.com/library/arduino-nano-2), assurant ainsi une intégration propre et sécurisée.
+Enfin, pour protéger et faciliter la connexion de l'Arduino Nano, nous avons ajouté un [Shield Arduino NANO](https://grabcad.com/library/arduino-nano-2), assurant ainsi une intégration propre et sécurisée.
 
 ## VII. Contributions
 
@@ -126,5 +128,9 @@ Distribué sous la Licence Apache-2.0. Voir `LICENSE` pour plus d'informations.
 
 Lien du projet : [GitHub - GaMBo 🌸](https://github.com/THE07s/GarderMapBot.git)
 
-## IX. Remerciements <a id="xi-remerciements"></a>
+## IX. Problèmes
+
+Lors de la réalisation de ce projet, nous avons eu à faire face à une flopée de problèmes à savoir :
+
+## X. Remerciements
 😶‍🌫️
