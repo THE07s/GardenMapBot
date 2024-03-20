@@ -34,7 +34,7 @@ Nous sommes un groupe de 4 étudiants passionnés, inscrits en classe préparato
 
 ## II. Pourquoi ce projet ?
 
-Inspirés par l'événement mondial Arduino Day, notre équipe a saisi l'opportunité offerte par nos enseignants de concevoir des projets de robotique. Nous aspirons à améliorer la culture des plantes et à encourager l'utilisation de la tech pour faciliter et optimiser l'agriculture sur notre continent.
+Inspirés par l'événement mondial Arduino Day, notre équipe a saisi l'opportunité offerte par nos enseignants de concevoir des projets de robotique. Nous aspirons à améliorer la culture des plantes et à encourager l'utilisation de la tech pour faciliter et optimiser l'agriculture sur notre continent🌍.
 
 ## III. Fonctionnalités
 
@@ -79,7 +79,7 @@ Nous avons eu à realiser un schéma pour avoir une idée de le forme du robot e
 <br clear="right"/>
 <br>
 
-Lors de la phase de conception de notre robot intelligent, nous avons dû réaliser un schéma détaillé pour visualiser la forme du robot et planifier l'emplacement optimal des différents composants. Cette étape cruciale nous permet de garantir une intégration efficace et une fonctionnalité optimale de chaque élément.
+Lors de la phase de conception de notre robot, nous avons dû réaliser un schéma détaillé pour visualiser la forme du robot et planifier l'emplacement optimal des différents composants. Cette étape cruciale nous permet de garantir une intégration efficace et une fonctionnalité optimale de chaque élément.
 
 ### Schéma du Robot
 
