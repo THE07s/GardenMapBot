@@ -105,21 +105,21 @@ Pour coordonner toutes ces fonctions, nous avons intégré l'[🖥️Arduino NAN
 
 Enfin, pour protéger et faciliter la connexion de l'Arduino Nano, nous avons ajouté un [Shield Arduino NANO](https://grabcad.com/library/arduino-nano-2), assurant ainsi une intégration propre et sécurisée.
 
-### Problèmes
+### Problèmes & Solutions
 
 Lors de la réalisation de ce projet, nous avons eu à faire face à une flopée de problèmes à savoir :
 
-**Pour la modélisation 3D** :
+**Lors de la modélisation 3D** :
 - Centrer les extrusions (destinées à la carte) horizontalement au milieu de la face, même en remontant dans l’historique
 - Établir une connexion claire entre les esquisses et la modélisation 3D
 - Gérer les contraintes lors de l’application d’une projection sans surcontraindre l’esquisse
 
-**Pour la conception du circuit** :
+**Lors de la conception du circuit** :
  - Importer le DHT22 dans Fritzing
  - Importer le Shield adapté à l'Arduino NANO dans Fritzing
  - L'absence du NANO, du module GPS et du DHT22 dans Tinkercad
- 
- ### Solutions
+
+Pour résoudre ces problèmes, nous avons "innover"
 
 ## VII. Contributions
 
