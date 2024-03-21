@@ -114,12 +114,12 @@ Lors de la réalisation de ce projet, nous avons eu à faire face à une flopée
 - Établir une connexion claire entre les esquisses et la modélisation 3D
 - Gérer les contraintes lors de l’application d’une projection sans surcontraindre l’esquisse
 
-  **Pour la conception du circuit** :
-  - Importer le DHT22 dans Fritzing
-  - Importer le Shield adapté à l'Arduino NANO dans Fritzing
-  - L'absence du NANO, du module GPS et du DHT22 dans Tinkercad
+**Pour la conception du circuit** :
+ - Importer le DHT22 dans Fritzing
+ - Importer le Shield adapté à l'Arduino NANO dans Fritzing
+ - L'absence du NANO, du module GPS et du DHT22 dans Tinkercad
  
-  ### Solutions
+ ### Solutions
 
 ## VII. Contributions
 
