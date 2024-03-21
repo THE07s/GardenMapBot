@@ -79,6 +79,10 @@ Nous avons eu à realiser un schéma pour avoir une idée de le forme du robot e
 <br clear="right"/>
 <br>
 
+
+https://github.com/THE07s/GardenMapBot/assets/101391118/6161aa29-c9dc-4e73-8f62-6bf7b1b91bbf
+
+
 Lors de la phase de conception de notre robot, nous avons dû réaliser un schéma détaillé pour visualiser la forme du robot et planifier l'emplacement optimal des différents composants. Cette étape cruciale nous permet de garantir une intégration efficace et une fonctionnalité optimale de chaque élément.
 
 ### Schéma du Robot
