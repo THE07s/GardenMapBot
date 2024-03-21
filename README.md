@@ -108,23 +108,27 @@ Enfin, pour protéger et faciliter la connexion de l'Arduino Nano, nous avons aj
 
 Lors de la réalisation de ce projet, nous avons eu à faire face à une flopée de problèmes à savoir :
 
-**Lors de la modélisation 3D** :
+**Pendant la modélisation 3D** :
 - Centrer les extrusions (destinées à la carte) horizontalement au milieu de la face, même en remontant dans l’historique
 - Établir une connexion claire entre les esquisses et la modélisation 3D
 - Gérer les contraintes lors de l’application d’une projection sans surcontraindre l’esquisse
 
-**Lors de la conception du circuit** :
+**Après la modélisation 3D** :
+- Le DHT22 et le module GPS ne rentraient pas dans l'espace qui leur était réservés
+- Les Servomoteurs flottaeint dans l'espace qui leur était réservés
+
+**Pendant la conception du circuit** :
  - Importer le DHT22 dans Fritzing
  - Importer le Shield adapté à l'Arduino NANO dans Fritzing
  - L'absence du NANO, du module GPS et du DHT22 dans Tinkercad
 
-Pour résoudre ces problèmes, nous avons "innover"
+Pour résoudre ces problèmes, nous avons "innover" c'est-à-dire que dans le cas du circuit, nous avons fait les tests avec l'Arduino UNO puisque 
 
 ## VII. Contributions
 
 M. Sylvestre OLANLO
 
-M.
+M. Josaphat BANKAÏ
 
 ## Licence
 
@@ -147,4 +151,9 @@ Distribué sous la Licence Apache-2.0. Voir `LICENSE` pour plus d'informations.
 Lien du projet : [GitHub - GaMBo 🌸](https://github.com/THE07s/GarderMapBot.git)
 
 ## IX. Remerciements
-😶‍🌫️
+
+M. Sylvestre OLANLO, qui nous a accompagné depuis le tout début.
+
+M. Giovanni KAMEKPO, qui nous a montré comment utiliser Git et GitHub.
+
+M. Josaphat BANKAÏ, qui nous a montré ce qu'est la modélisation paramétrée.
