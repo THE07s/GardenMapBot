@@ -124,6 +124,10 @@ Lors de la réalisation de ce projet, nous avons eu à faire face à une flopée
 
 Pour résoudre ces problèmes, nous avons "innover" c'est-à-dire que dans le cas du circuit, nous avons fait les tests avec l'Arduino UNO puisque le NANO et l'UNO sont les "mêmes".
 
+### Images du modèle 3D
+
+<img align="right" src="https://github.com/THE07s/GardenMapBot/assets/162814213/61cb331c-02a5-4488-8f8d-96ea3b070785" alt="Dessus" width="50%" />
+
 ## VII. Contributions
 
 M. Sylvestre OLANLO
