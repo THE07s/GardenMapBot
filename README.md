@@ -122,7 +122,7 @@ Lors de la réalisation de ce projet, nous avons eu à faire face à une flopée
  - Importer le Shield adapté à l'Arduino NANO dans Fritzing
  - L'absence du NANO, du module GPS et du DHT22 dans Tinkercad
 
-Pour résoudre ces problèmes, nous avons "innover" c'est-à-dire que dans le cas du circuit, nous avons fait les tests avec l'Arduino UNO puisque 
+Pour résoudre ces problèmes, nous avons "innover" c'est-à-dire que dans le cas du circuit, nous avons fait les tests avec l'Arduino UNO puisque le NANO et l'UNO sont les "mêmes".
 
 ## VII. Contributions
 
