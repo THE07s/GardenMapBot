@@ -126,7 +126,7 @@ Pour résoudre ces problèmes, nous avons "innover" c'est-à-dire que dans le ca
 
 ### Images du modèle 3D
 
-<img align="right" src="https://github.com/THE07s/GardenMapBot/assets/Dessus" alt="Dessus" width="20%" />
+
 
 ## VII. Contributions
 
