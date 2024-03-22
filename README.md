@@ -46,17 +46,17 @@ Inspirés par l'événement mondial Arduino Day, notre équipe a saisi l'opportu
 
 ## IV. Liste du matériel du projet final
 
-| **Système**     | **Arduino**                     | **Espressif**                        |
-| --------------- | ------------------------------- | ------------------------------------ |
-| 🖥️ **Microcontrôleur** | Arduino NANO                | ESP-32-CAM                       |
-| 📡 **Capteurs** | - 🌡️💧DHT22 × 1               | - 🌡️💧DHT22 × 1                       |
-|                 | - 🌅 Photorésistance × 1      | - 🌅 Photorésistance × 1             |
-|                 | - 🔊 Capteur ultrason × 3     | - 🔊 Capteur ultrason × 3            |
-|                 | - 📷 Module caméra             |                                      |
-|                 | - 🌍 Module GPS                | - 🌍 Module GPS                      |
-| 🛠️ **Autres**  | - ⚙️ Servomoteurs débridés × 4~6 | - ⚙️ Servomoteurs débridés × 4~6 (dépendant de la charge totale) |
-|                 | - 🔋 Batterie : rechargeable et légère | - 🔋 Batterie : rechargeable et légère |
-|                 | - 🛡️ Châssis : PLA             | - 🛡️ Châssis : PLA                   |
+| **Système**             | **Arduino**                            | **Espressif**                                                    |
+|-------------------------|----------------------------------------|------------------------------------------------------------------|
+| 🖥️ **Microcontrôleur** | Arduino NANO                           | ESP-32-CAM                                                       |
+| 📡 **Capteurs**         | - 🌡️💧DHT22 × 1                       | - 🌡️💧DHT22 × 1                                                 |
+|                         | - 🌅 Photorésistance × 1               | - 🌅 Photorésistance × 1                                         |
+|                         | - 🔊 Capteur ultrason × 3              | - 🔊 Capteur ultrason × 3                                        |
+|                         | - 📷 Module caméra                     |                                                                  |
+|                         | - 🌍 Module GPS                        | - 🌍 Module GPS                                                  |
+| 🛠️ **Autres**          | - ⚙️ Servomoteurs débridés × 4~6       | - ⚙️ Servomoteurs débridés × 4~6 (dépendant de la charge totale) |
+|                         | - 🔋 Batterie : rechargeable et légère | - 🔋 Batterie : rechargeable et légère                           |
+|                         | - 🛡️ Châssis : PLA                    | - 🛡️ Châssis : PLA                                              |
 
 ## V. Installation du projet final
 😶‍🌫️
@@ -74,7 +74,7 @@ Le projet final implique un robot entièrement autonome, capable de cartographie
 
 
 
-Nous avons eu à realiser un schéma pour avoir une idée de le forme du robot et de l'emplacement des différents composants
+Nous avons eu à réaliser un schéma pour avoir une idée de le forme du robot et de l'emplacement des différents composants
 
 <br clear="right"/>
 <br>
