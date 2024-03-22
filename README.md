@@ -22,7 +22,7 @@
 
 [VI. Notre parcours](#vi-notre-parcours)
 
-[VII. License](#vii-license)
+[VII. Licence](#vii-licence)
 
 [VIII. Contacts](#viii-contacts)
 
@@ -45,6 +45,23 @@ Inspirée par l'événement mondial Arduino Day, notre équipe a saisi l'opportu
 - **Cartographie de l'humidité**
 - **Cartographie de l'ensoleillement**
 - **Conseils de jardinage**
+
+```mermaid
+graph TD;
+    A[Capteurs de température, humidité et luminosité] --> B(Analyse des données);
+    B --> C{Conditions de jardinage};
+    C -->|Température élevée| D(Arrosage plus fréquent);
+    C -->|Humidité basse| E(Augmenter l'arrosage ou ajouter du paillis);
+    C -->|Ensoleillement insuffisant| F(Déplacer les plantes vers des zones plus ensoleillées ou ajouter des lampes de croissance);
+    C -->|Conditions optimales| G(Aucun conseil nécessaire);
+    D --> H{Connecté à un ordinateur};
+    E --> H;
+    F --> H;
+    G --> H;
+    H --> I(Interface utilisateur);
+    I --> J[Tableau de données];
+    I --> K[Graphiques de tendances];
+```
 
 ## IV. Liste du matériel du projet final
 
@@ -72,8 +89,6 @@ Le projet final implique un robot entièrement autonome, capable de cartographie
 - **Cartographie de l'humidité**
 - **Cartographie de l'ensoleillement**
 
-
-
 Nous avons eu à réaliser le schéma que voici pour avoir une idée de la forme du robot et de l'emplacement des capteurs et composants pour optimiser l'espace efficacement afin d'accueillir l'ensemble du câblage. 
 
 <img align="right" src="https://github.com/THE07s/GardenMapBot/assets/162814213/61cb331c-02a5-4488-8f8d-96ea3b070785" alt="schémaGMB" width="68%" />
@@ -93,10 +108,10 @@ Voici les étapes de la modélisation du corps de notre robot :
 
 Voici les différentes parties qui forment le boitier de notre robot :
 <br>
-<img  src="https://github.com/THE07s/GardenMapBot/assets/162814002/7f2c116c-a7d4-487c-9de7-98704034fe03" alt="Dessous" width="68%" />
-<br>
-<img  src="https://github.com/THE07s/GardenMapBot/assets/162814002/de5a8f22-0677-4060-85b1-b748e97dc148" alt="Dessous" width="68%" />
-<br>
+<p>
+    <img src="https://github.com/THE07s/GardenMapBot/assets/162814002/de5a8f22-0677-4060-85b1-b748e97dc148" alt="Dessous" width="47%" hspace="10" >
+    <img src="https://github.com/THE07s/GardenMapBot/assets/162814002/7f2c116c-a7d4-487c-9de7-98704034fe03" alt="Dessus" width="47%" hspace="10" >
+</p>
 
 Après la modélisation, nous avons procédé à l'impression du corps et en raison d'un certain nombre de problèmes d'encadrement, nous avons dû procéder au limage de certaines bordures pour permettre l'accueil des capteurs.
 
@@ -124,37 +139,100 @@ void loop() {
 
 À présent, nous allons procéder à une programmation fonctionnelle en lieu et place d'une programmation orientée objet en raison du manque de temps et d'entraînement en C++.
 
-### Problèmes & Solutions
+J'ai donc commencer à créer les fonctions de base du robot, autrement dit avancer, reculer et tourner. Pour la fonction *tourner()* il me fallait trouver le nombre de millisecondes au bout duquel le robot faisait une rotation sensiblement égale à 90°. Voici donc le programme de test qui traduit mes déductions :
 
-Lors de la réalisation de ce projet, nous avons eu à faire face à une flopée de problèmes à savoir :
+```cpp
+#include <Servo.h>
 
-**Pendant la modélisation 3D** :
-- Centrer les extrusions (destinées à la carte) horizontalement au milieu de la face réservée en utilisant la modélisation paramétrique.
-- Établir une connexion claire entre les esquisses et la modélisation 3D.
-- Éviter les sur-contraintes de l’esquisse.
+Servo avant_gauche, arriere_gauche, avant_droit, arriere_droit;
 
-**Après la modélisation 3D** :
-- Le DHT22 et le module GPS ne rentraient pas dans l'espace qui leur était réservés.
-- Les Servomoteurs flottaient dans l'espace qui leur était réservés.
+void stop() {
+  avant_gauche.write(90);
+  arriere_gauche.write(90);
+  avant_droit.write(90);
+  arriere_droit.write(91);
+}
 
-**Pendant la conception du circuit** :
- - Importer le DHT22 dans Fritzing.
- - Importer le Shield adapté à l'Arduino NANO dans Fritzing.
- - L'absence du NANO, du module GPS et du DHT22 dans Tinkercad.
+void avancer(int duree) {
+  avant_gauche.write(180);
+  arriere_gauche.write(96);
+  avant_droit.write(0);
+  arriere_droit.write(0);
+  delay(duree);
+  stop();
+}
 
-Pour résoudre ces problèmes, nous avons "innover" faisant les tests nécessaires avec l'Arduino UNO étant donné les nombreuses similitudes entre cette carte et l'arduino NANO. Quant aux pièces, nous avons limé les contours pour pouvoir placer le DHT22 et utilisé le pistolet à colle pour fixer les servomoteurs.
+void reculer(int duree) {
+  avant_gauche.write(0);
+  arriere_gauche.write(0);
+  avant_droit.write(180);
+  arriere_droit.write(180);
+  delay(duree);
+  stop();
+}
+
+void tourner_moins_90() {
+  avant_gauche.write(0);
+  arriere_gauche.write(0);
+  avant_droit.write(0);
+  arriere_droit.write(0);
+  delay(650);
+  stop();
+};
+
+void tourner_plus_90() {
+  avant_gauche.write(180);
+  arriere_gauche.write(180);
+  avant_droit.write(180);
+  arriere_droit.write(180);
+  delay(650);
+  stop();
+};
+
+void carre() {
+  for (int i = 0; i < 4; i++) {
+    avancer(1750);
+    tourner_plus_90();
+  };
+};
+
+void setup() {
+  avant_gauche.attach(2);
+  arriere_gauche.attach(3);
+  avant_droit.attach(4);
+  arriere_droit.attach(5);
+}
+
+void loop() {
+  carre();
+}
+```
+> [!NOTE]
+> ### Problèmes & Solutions
+> Lors de la réalisation de ce projet, nous avons eu à faire face à une flopée de problèmes à savoir :
+> **Pendant la modélisation 3D** :
+> - Centrer les extrusions (destinées à la carte) horizontalement au milieu de la face réservée en utilisant la modélisation paramétrique.
+> - Établir une connexion claire entre les esquisses et la modélisation 3D.
+> - Éviter les sur-contraintes de l’esquisse.
+
+> [!WARNING]
+> **Après la modélisation 3D** :
+> - Le DHT22 et le module GPS ne rentraient pas dans l'espace qui leur était réservés.
+> - Les Servomoteurs flottaient dans l'espace qui leur était réservés.
+
+> [!NOTE]
+> **Pendant la conception du circuit** :
+> - Importer le DHT22 dans Fritzing.
+> - Importer le Shield adapté à l'Arduino NANO dans Fritzing.
+> - L'absence du NANO, du module GPS et du DHT22 dans Tinkercad.
+
+> [!TIP]
+> Pour résoudre ces problèmes, nous avons "innover" et fait les tests nécessaires avec l'Arduino UNO étant donné les nombreuses similitudes entre cette carte et l'arduino NANO. Quant aux pièces, nous avons limé les contours pour pouvoir placer le DHT22 et utiliser le pistolet à colle pour fixer les servomoteurs.
 
 ### Références
 
 - https://www.youtube.com/watch?v=E0NVC8xhf3I --> conception du boitier
 - https://cults3d.com/fr/mod%C3%A8le-3d/art/wheel-for-sg90-servo --> roues associées au Servomoteur
-- https://grabcad.com/library/dht22-module-1 --> modèle 3D du DHT22
-- https://grabcad.com/library/servo-motor-sg90-6 --> modèle 3D du Servomoteur
-- https://grabcad.com/library/ultrasonic-sensor-hc-sr04-3 --> modèle 3D de l'Ultrason
-- https://grabcad.com/library/ublox-m6-with-ceramic-antenna-1 --> modèle 3D du module GPS
-- https://grabcad.com/library/gl5528-photoresistor-1 --> modèle 3D de la photoresistance
-- https://grabcad.com/library/arduino-nano--1 --> modèle 3D de l'Arduino NANO
-- https://grabcad.com/library/arduino-nano-2 --> modèle 3D du Shield
 - https://arduino-france.site/ultrason-hc-sr04/ --> programmation de l'Ultrason
 - https://github.com/miyujach/Projet-Robot/blob/9f384fafb67974cea4fc9b659ff7004661033b75/README.md#projet-ascyloom --> rédaction de la documentation
 
