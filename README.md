@@ -34,7 +34,7 @@ Nous sommes un groupe de 4 étudiants passionnés, inscrits en classe préparato
 
 ## II. Pourquoi ce projet ?
 
-Inspirés par l'événement mondial Arduino Day, notre équipe a saisi l'opportunité offerte par nos enseignants de concevoir des projets de robotique. Nous aspirons à améliorer la culture des plantes et à encourager l'utilisation de la tech pour faciliter et optimiser l'agriculture sur notre continent.
+Inspirée par l'événement mondial Arduino Day, notre équipe a saisi l'opportunité offerte par nos enseignants de concevoir des projets de robotique. Nous aspirons à améliorer la culture des plantes et à encourager l'utilisation de la tech pour faciliter et optimiser l'agriculture sur notre continent.
 
 ## III. Fonctionnalités
 
@@ -63,9 +63,7 @@ Inspirés par l'événement mondial Arduino Day, notre équipe a saisi l'opportu
 
 ## VI. Notre parcours
 
-<img align="right" src="https://github.com/THE07s/GardenMapBot/assets/162814213/61cb331c-02a5-4488-8f8d-96ea3b070785" alt="schémaGMB" width="50%" />
-
-Le projet final implique un robot entièrement autonome, capable de cartographier un jardin de forme complexe. Mais avant d'atteindre ce résultat final, nous devons adopter une méthode itérative. Ainsi, dans un premier temps, le projet se limitera à ces fonctionalités :
+Le projet final implique un robot entièrement autonome, capable de cartographier un jardin de forme complexe. Mais avant d'atteindre ce résultat final, nous devons adopter une méthode itérative. Ainsi, dans un premier temps, le projet se limitera à ces fonctionnalités :
 
 - **Prise en charge de formes de jardins rectangulaires**
 - **Cartographie thermique**
@@ -74,60 +72,27 @@ Le projet final implique un robot entièrement autonome, capable de cartographie
 
 
 
-Nous avons eu à réaliser un schéma pour avoir une idée de le forme du robot et de l'emplacement des différents composants
+Nous avons eu à réaliser le schéma que voici pour avoir une idée de la forme du robot et de l'emplacement des capteurs et composants pour optimiser l'espace efficacement afin d'accueillir l'ensemble du câblage. 
+
+<img align="right" src="https://github.com/THE07s/GardenMapBot/assets/162814213/61cb331c-02a5-4488-8f8d-96ea3b070785" alt="schémaGMB" width="68%" />
+
+- Nous avons donc placer le [🌡️💧DHT22](https://grabcad.com/library/dht22-module-1) tourné vers le sol et sur la face inférieur du robot pour pouvoir prendre nos mesures le plus près possible du sol. 
+- Les 4 [⚙️Servomoteur](https://grabcad.com/library/servo-motor-sg90-6) et les 3 [🔊Capteur ultrason](https://grabcad.com/library/ultrasonic-sensor-hc-sr04-3) ont eux, étés logés sur les côtés symétriquement par rapport à l'axe passant par le milieu des faces inférieur et supérieur. 
+- La [🌅 Photorésistance](https://grabcad.com/library/gl5528-photoresistor-1) est quant à elle placée de sorte que le milieu de sa face supérieur soit confondus avec l'axe de symétrie. 
+- L'antenne du [🌍 Module GPS](https://grabcad.com/library/ublox-m6-with-ceramic-antenna-1) a été placée au-dessus de l'[🖥️Arduino NANO](https://grabcad.com/library/arduino-nano--1) pour des raisons d'esthétiques. 
+- La carte [🖥️Arduino NANO](https://grabcad.com/library/arduino-nano--1) est elle-même placée de telle sorte que ces ports soient exposés et facilement accéssibles de l'extérieur.
 
 <br clear="right"/>
 <br>
-
+Voici les étapes de la modélisation du corps de notre robot :
+<br>
  <video autoplay loop playsinline src="https://github.com/THE07s/GardenMapBot/assets/101391118/6161aa29-c9dc-4e73-8f62-6bf7b1b91bbf">  video </video>
 <br>
 
-Lors de la phase de conception de notre robot, nous avons dû réaliser un schéma détaillé pour visualiser la forme du robot et planifier l'emplacement optimal des différents composants. Cette étape cruciale nous permet de garantir une intégration efficace et une fonctionnalité optimale de chaque élément.
+Après la modélisation, nous avons procédé à l'impression du corps et en raison d'un certain nombre de problèmes d'encadrement, nous avons dû procéder au limage de certaines bordures pour permettre l'accueil des capteurs.
 
-### Schéma du Robot
+Nous avons ensuite débridé les servomoteurs pour permettre leur rotation en continu. Pour des raisons de logiques, nous avons choisi de prendre un angle de 90° comme position d'arrêt. Voici le code de test que nous avons écrit :
 
-Pour débuter, nous avons utilisé le [🌡️💧DHT22](https://grabcad.com/library/dht22-module-1), un capteur d'humidité et de température, afin de réguler l'environnement interne du robot. Ce composant essentiel a été placé stratégiquement pour assurer une mesure précise dans toutes les conditions.
-
-Ensuite, nous avons intégré le [⚙️Servomoteur](https://grabcad.com/library/servo-motor-sg90-6) pour contrôler les mouvements mécaniques du robot. Son positionnement a été soigneusement étudié pour garantir une manipulation précise des éléments externes.
-
-Un autre composant crucial est le [🔊Capteur ultrason](https://grabcad.com/library/ultrasonic-sensor-hc-sr04-3), utilisé pour la détection d'obstacles. Nous avons choisi son emplacement de manière à maximiser la couverture de détection tout en minimisant les interférences.
-
-### Composants Supplémentaires
-
-Le [🌍 Module GPS](https://grabcad.com/library/ublox-m6-with-ceramic-antenna-1) a été intégré pour permettre au robot de naviguer efficacement dans son environnement. Son placement a été optimisé pour assurer une réception satellite optimale.
-
-La [🌅 Photorésistance](https://grabcad.com/library/gl5528-photoresistor-1) a également été incluse pour détecter les variations de luminosité, permettant au robot de s'adapter à différentes conditions d'éclairage. Son emplacement a été choisi avec soin pour garantir une mesure précise de la lumière ambiante.
-
-### Contrôle et Alimentation
-
-Pour coordonner toutes ces fonctions, nous avons intégré l'[🖥️Arduino NANO](https://grabcad.com/library/arduino-nano--1), une carte de développement compacte et puissante. Son positionnement central facilite la connexion avec tous les autres composants.
-
-Enfin, pour protéger et faciliter la connexion de l'Arduino Nano, nous avons ajouté un [Shield Arduino NANO](https://grabcad.com/library/arduino-nano-2), assurant ainsi une intégration propre et sécurisée.
-
-### Problèmes & Solutions
-
-Lors de la réalisation de ce projet, nous avons eu à faire face à une flopée de problèmes à savoir :
-
-**Pendant la modélisation 3D** :
-- Centrer les extrusions (destinées à la carte) horizontalement au milieu de la face, même en remontant dans l’historique
-- Établir une connexion claire entre les esquisses et la modélisation 3D
-- Gérer les contraintes lors de l’application d’une projection sans surcontraindre l’esquisse
-
-**Après la modélisation 3D** :
-- Le DHT22 et le module GPS ne rentraient pas dans l'espace qui leur était réservés
-- Les Servomoteurs flottaeint dans l'espace qui leur était réservés
-
-**Pendant la conception du circuit** :
- - Importer le DHT22 dans Fritzing
- - Importer le Shield adapté à l'Arduino NANO dans Fritzing
- - L'absence du NANO, du module GPS et du DHT22 dans Tinkercad
-
-Pour résoudre ces problèmes, nous avons "innover" c'est-à-dire que dans le cas du circuit, nous avons fait les tests avec l'Arduino UNO puisque le NANO et l'UNO sont les "mêmes".
-
-### Images du modèle 3D
-
-# place ceci au bon endroit s’il te plait et réorganise-le :
-# Code de test des servos après les avoir débridé, ici en mettant un angle de 90 les servos sont à l'arrêt, ensuite je vais procéder à une programmation fonctionnelle en lieu et place d'une programmation orientée objet en raison du manque de temps et d'entraînement en cpp 
 ```cpp
 #include <Servo.h>
 
@@ -148,6 +113,27 @@ void loop() {
 }
 ```
 
+À présent, nous allons procéder à une programmation fonctionnelle en lieu et place d'une programmation orientée objet en raison du manque de temps et d'entraînement en C++.
+
+### Problèmes & Solutions
+
+Lors de la réalisation de ce projet, nous avons eu à faire face à une flopée de problèmes à savoir :
+
+**Pendant la modélisation 3D** :
+- Centrer les extrusions (destinées à la carte) horizontalement au milieu de la face réservée en utilisant la modélisation paramétrique.
+- Établir une connexion claire entre les esquisses et la modélisation 3D.
+- Éviter les sur-contraintes de l’esquisse.
+
+**Après la modélisation 3D** :
+- Le DHT22 et le module GPS ne rentraient pas dans l'espace qui leur était réservés.
+- Les Servomoteurs flottaient dans l'espace qui leur était réservés.
+
+**Pendant la conception du circuit** :
+ - Importer le DHT22 dans Fritzing.
+ - Importer le Shield adapté à l'Arduino NANO dans Fritzing.
+ - L'absence du NANO, du module GPS et du DHT22 dans Tinkercad.
+
+Pour résoudre ces problèmes, nous avons "innover" faisant les tests nécessaires avec l'Arduino UNO étant donné les nombreuses similitudes entre cette carte et l'arduino NANO.
 
 ## VII. Contributions
 
