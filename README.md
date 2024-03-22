@@ -139,7 +139,7 @@ void loop() {
 
 À présent, nous allons procéder à une programmation fonctionnelle en lieu et place d'une programmation orientée objet en raison du manque de temps et d'entraînement en C++.
 
-J'ai donc commencer à créer les fonctions de base du robot, autrement dit avancer, reculer et tourner. Pour la fonction *tourner()* il me fallait trouver le nombre de millisecondes au bout duquel le robot faisait une rotation sensiblement égale à 90°. Voici donc le programme de test qui traduit mes déductions :
+J'ai donc commencé à créer les fonctions de base du robot, autrement dit avancer, reculer et tourner. Pour la fonction *tourner()* il me fallait trouver le nombre de millisecondes au bout duquel le robot faisait une rotation sensiblement égale à 90°. Voici donc le programme de test qui traduit mes déductions :
 
 ```cpp
 #include <Servo.h>
@@ -231,10 +231,10 @@ void loop() {
 
 ### Références
 
-- https://www.youtube.com/watch?v=E0NVC8xhf3I --> conception du boitier
-- https://cults3d.com/fr/mod%C3%A8le-3d/art/wheel-for-sg90-servo --> roues associées au Servomoteur
+- https://www.youtube.com/watch?v=E0NVC8xhf3I ⇨ conception du boitier
+- https://cults3d.com/fr/mod%C3%A8le-3d/art/wheel-for-sg90-servo ⇨ roues associées au Servomoteur
 - https://arduino-france.site/ultrason-hc-sr04/ --> programmation de l'Ultrason
-- https://github.com/miyujach/Projet-Robot/blob/9f384fafb67974cea4fc9b659ff7004661033b75/README.md#projet-ascyloom --> rédaction de la documentation
+- https://github.com/miyujach/Projet-Robot/blob/9f384fafb67974cea4fc9b659ff7004661033b75/README.md#projet-ascyloom ⇨ rédaction de la documentation
 
 ## VII. Licence
 
