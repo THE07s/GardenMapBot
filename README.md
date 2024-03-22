@@ -10,9 +10,9 @@
 
 ## Sommaire
 
-[I. Qui sommes-nous?](#i-qui-sommes-nous-)
+[I. Qui sommes-nous ?](#i-qui-sommes-nous-)
 
-[II. Pourquoi ce projet?](#ii-pourquoi-ce-projet-)
+[II. Pourquoi ce projet ?](#ii-pourquoi-ce-projet-)
 
 [III. Fonctionnalités](#iii-fonctionnalités)
 
@@ -22,15 +22,17 @@
 
 [VI. Notre parcours](#vi-notre-parcours)
 
-[VII. Contributions](#vii-contributions)
+[VII. License](#vii-license)
 
 [VIII. Contacts](#viii-contacts)
 
-[IX. Remerciements](#ix-remerciements)
+[IX. Contributions](#ix-contributions)
+
+[X. Remerciements](#x-remerciements)
 
 ## I. Qui sommes-nous ?
 
-Nous sommes un groupe de 4 étudiants passionnés, inscrits en classe préparatoire au cycle ingénieur à ESEO - Cours Lumière, située au Togo. L'équipe est constituée de GNASSINGBE Emilie, DOUMBIA Aïchata, KORDOHOU Errath et LEENAERTS Loïc (chef de projet). 
+Nous sommes un groupe de 4 étudiants passionnés, inscrits en classe préparatoire au cycle ingénieur à ESEO - Cours Lumière, située au Togo. L'équipe est constituée de GNASSINGBE Émilie, DOUMBIA Aïchata, KORDOHOU Errath et LEENAERTS Loïc (chef de projet). 
 
 ## II. Pourquoi ce projet ?
 
@@ -135,13 +137,7 @@ Lors de la réalisation de ce projet, nous avons eu à faire face à une flopée
 
 Pour résoudre ces problèmes, nous avons "innover" faisant les tests nécessaires avec l'Arduino UNO étant donné les nombreuses similitudes entre cette carte et l'arduino NANO.
 
-## VII. Contributions
-
-M. Sylvestre OLANLO
-
-M. Josaphat BANKAÏ
-
-## Licence
+## VII. Licence
 
 Distribué sous la Licence Apache-2.0. Voir `LICENSE` pour plus d'informations.
 
@@ -161,10 +157,17 @@ Distribué sous la Licence Apache-2.0. Voir `LICENSE` pour plus d'informations.
 
 Lien du projet : [GitHub - GaMBo 🌸](https://github.com/THE07s/GarderMapBot.git)
 
-## IX. Remerciements
+## IX. Contributions
 
-M. Sylvestre OLANLO, qui nous a accompagné depuis le tout début.
+- M. Sylvestre OLANLO
 
-M. Giovanni KAMEKPO, qui nous a montré comment utiliser Git et GitHub.
+- M. Josaphat BANKAÏ
 
-M. Josaphat BANKAÏ, qui nous a montré ce qu'est la modélisation paramétrée.
+
+## X. Remerciements
+
+- M. Sylvestre OLANLO, qui nous a suivi depuis le tout début.
+
+- M. Giovanni KAMEKPO, qui nous a initié à Git & GitHub.
+
+- M. Josaphat BANKAÏ, qui nous entretenu sur la modélisation paramétrique.
