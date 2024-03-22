@@ -91,6 +91,13 @@ Voici les étapes de la modélisation du corps de notre robot :
  <video autoplay loop playsinline src="https://github.com/THE07s/GardenMapBot/assets/101391118/6161aa29-c9dc-4e73-8f62-6bf7b1b91bbf">  video </video>
 <br>
 
+Voici les différentes parties qui forment le boitier de notre robot :
+<br>
+<img  src="https://github.com/THE07s/GardenMapBot/assets/162814002/7f2c116c-a7d4-487c-9de7-98704034fe03" alt="Dessous" width="68%" />
+<br>
+<img  src="https://github.com/THE07s/GardenMapBot/assets/162814002/de5a8f22-0677-4060-85b1-b748e97dc148" alt="Dessous" width="68%" />
+<br>
+
 Après la modélisation, nous avons procédé à l'impression du corps et en raison d'un certain nombre de problèmes d'encadrement, nous avons dû procéder au limage de certaines bordures pour permettre l'accueil des capteurs.
 
 Nous avons ensuite débridé les servomoteurs pour permettre leur rotation en continu. Pour des raisons de logiques, nous avons choisi de prendre un angle de 90° comme position d'arrêt. Voici le code de test que nous avons écrit :
@@ -135,7 +142,21 @@ Lors de la réalisation de ce projet, nous avons eu à faire face à une flopée
  - Importer le Shield adapté à l'Arduino NANO dans Fritzing.
  - L'absence du NANO, du module GPS et du DHT22 dans Tinkercad.
 
-Pour résoudre ces problèmes, nous avons "innover" faisant les tests nécessaires avec l'Arduino UNO étant donné les nombreuses similitudes entre cette carte et l'arduino NANO.
+Pour résoudre ces problèmes, nous avons "innover" faisant les tests nécessaires avec l'Arduino UNO étant donné les nombreuses similitudes entre cette carte et l'arduino NANO. Quant aux pièces, nous avons limé les contours pour pouvoir placer le DHT22 et utilisé le pistolet à colle pour fixer les servomoteurs.
+
+### Références
+
+- https://www.youtube.com/watch?v=E0NVC8xhf3I --> conception du boitier
+- https://cults3d.com/fr/mod%C3%A8le-3d/art/wheel-for-sg90-servo --> roues associées au Servomoteur
+- https://grabcad.com/library/dht22-module-1 --> modèle 3D du DHT22
+- https://grabcad.com/library/servo-motor-sg90-6 --> modèle 3D du Servomoteur
+- https://grabcad.com/library/ultrasonic-sensor-hc-sr04-3 --> modèle 3D de l'Ultrason
+- https://grabcad.com/library/ublox-m6-with-ceramic-antenna-1 --> modèle 3D du module GPS
+- https://grabcad.com/library/gl5528-photoresistor-1 --> modèle 3D de la photoresistance
+- https://grabcad.com/library/arduino-nano--1 --> modèle 3D de l'Arduino NANO
+- https://grabcad.com/library/arduino-nano-2 --> modèle 3D du Shield
+- https://arduino-france.site/ultrason-hc-sr04/ --> programmation de l'Ultrason
+- https://github.com/miyujach/Projet-Robot/blob/9f384fafb67974cea4fc9b659ff7004661033b75/README.md#projet-ascyloom --> rédaction de la documentation
 
 ## VII. Licence
 
@@ -159,9 +180,13 @@ Lien du projet : [GitHub - GaMBo 🌸](https://github.com/THE07s/GarderMapBot.gi
 
 ## IX. Contributions
 
-- M. Sylvestre OLANLO
+- M. Sylvestre OLANLO (Disposition des matériels dans le boitier)
 
-- M. Josaphat BANKAÏ
+- M. Josaphat BANKAÏ (Fusion 360)
+
+- Kenneth K. NONVIGNON (Diagramme)
+
+- Pierre K. ATADEGNON & Adama NADJOMBE (Servomoteurs débridés)
 
 
 ## X. Remerciements
