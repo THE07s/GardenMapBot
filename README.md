@@ -231,10 +231,10 @@ void loop() {
 
 ### Références
 
-- https://www.youtube.com/watch?v=E0NVC8xhf3I ⇨ conception du boitier
-- https://cults3d.com/fr/mod%C3%A8le-3d/art/wheel-for-sg90-servo ⇨ roues associées au Servomoteur
-- https://arduino-france.site/ultrason-hc-sr04/ --> programmation de l'Ultrason
-- https://github.com/miyujach/Projet-Robot/blob/9f384fafb67974cea4fc9b659ff7004661033b75/README.md#projet-ascyloom ⇨ rédaction de la documentation
+- [Inspiration pour la conception du corps 🧰](https://www.youtube.com/watch?v=E0NVC8xhf3I)
+- [Roues pour le servomoteur SG90 ⚙️](https://cults3d.com/fr/mod%C3%A8le-3d/art/wheel-for-sg90-servo)
+- [Configuration du capteur ultrason 🔊](https://arduino-france.site/ultrason-hc-sr04/)
+- [Aide à la rédaction de la documentation 📑](https://github.com/miyujach/Projet-Robot/blob/9f384fafb67974cea4fc9b659ff7004661033b75/README.md#projet-ascyloom)
 
 ## VII. Licence
 
