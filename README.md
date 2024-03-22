@@ -126,6 +126,27 @@ Pour résoudre ces problèmes, nous avons "innover" c'est-à-dire que dans le ca
 
 ### Images du modèle 3D
 
+# place ceci au bon endroit s’il te plait et réorganise-le :
+# Code de test des servos après les avoir débridé, ici en mettant un angle de 90 les servos sont à l'arrêt, ensuite je vais procéder à une programmation fonctionnelle en lieu et place d'une programmation orientée objet en raison du manque de temps et d'entraînement en cpp 
+```cpp
+#include <Servo.h>
+
+Servo avant_gauche, arriere_gauche, avant_droit, arriere_droit;
+
+void setup() {
+  avant_gauche.attach(2);
+  arriere_gauche.attach(3);
+  avant_droit.attach(4);
+  arriere_droit.attach(5);
+}
+
+void loop() {
+  avant_gauche.write(90);
+  arriere_gauche.write(90);
+  avant_droit.write(90);
+  arriere_droit.write(90);
+}
+```
 
 
 ## VII. Contributions
