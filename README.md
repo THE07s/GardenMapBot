@@ -207,6 +207,61 @@ void loop() {
   carre();
 }
 ```
+Voici un aperçu du mouvement du robot :
+<br>
+<video autoplay loop playsinline src="https://github.com/THE07s/GardenMapBot/assets/162814002/0e99bf08-a32b-451b-85bf-9db2ad731a0c"> video </video>
+<br>
+
+<br>
+<video autoplay loop playsinline src="https://github.com/THE07s/GardenMapBot/assets/162814002/8494161b-c6f6-4778-b160-64e97f9adee7"> video </video>
+<br>
+
+Par la suite, nous avons testé l'ultrason HC-SR04 avec une led témoin pour vérifier que chacun fonctionnait. Voici le code test que nous avons écrit:
+
+```cpp
+// Bibliothèque pour le capteur à ultrasons
+#include <Ultrasonic.h>
+
+// Broches de connexion du capteur HC-SR04
+const int trigPin = 9; // Broche de déclenchement (Trigger)
+const int echoPin = 8; // Broche d'écho
+
+// Broche de la LED
+const int ledPin = 13; // Utilisons la broche 13 (LED intégrée sur la carte Arduino Uno)
+
+// Créez une instance du capteur ultrason
+Ultrasonic ultrasonic(trigPin, echoPin);
+
+void setup() {
+  // Initialisez la communication série
+  Serial.begin(9600);
+
+  // Configurez la broche de la LED comme sortie
+  pinMode(ledPin, OUTPUT);
+}
+
+void loop() {
+  // Mesurez la distance en centimètres
+  float distance = ultrasonic.read();
+
+  // Affichez la distance dans la console série
+  Serial.print("Distance: ");
+  Serial.print(distance);
+  Serial.println(" cm");
+
+  // Allumez la LED si la distance est inférieure à 20 cm
+  if (distance > 20) {
+    digitalWrite(ledPin, HIGH);
+  } else {
+    digitalWrite(ledPin, LOW);
+  }
+
+  // Attendez 1s avant de mesurer à nouveau
+  delay(1000);
+}
+
+```
+
 > [!NOTE]
 > ### Problèmes & Solutions
 > Lors de la réalisation de ce projet, nous avons eu à faire face à une flopée de problèmes à savoir :
