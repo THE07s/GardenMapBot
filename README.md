@@ -109,8 +109,8 @@ Voici les étapes de la modélisation du corps de notre robot :
 Voici les différentes parties qui forment le boitier de notre robot :
 <br>
 <p>
-    <img src="https://github.com/THE07s/GardenMapBot/assets/162814002/de5a8f22-0677-4060-85b1-b748e97dc148" alt="Dessous" width="47%" hspace="10" >
-    <img src="https://github.com/THE07s/GardenMapBot/assets/162814002/7f2c116c-a7d4-487c-9de7-98704034fe03" alt="Dessus" width="47%" hspace="10" >
+    <img src="https://github.com/THE07s/GardenMapBot/assets/162814002/96229055-2d68-4da5-b596-8e4f06e4de6f" alt="Dessous" width="47%" hspace="10" >
+    <img src="https://github.com/THE07s/GardenMapBot/assets/162814002/d35b4b35-3c79-444f-ae4d-81c1af8201e7" alt="Dessus" width="47%" hspace="10" >
 </p>
 
 Après la modélisation, nous avons procédé à l'impression du corps et en raison d'un certain nombre de problèmes d'encadrement, nous avons dû procéder au limage de certaines bordures pour permettre l'accueil des capteurs.
@@ -207,7 +207,7 @@ void loop() {
   carre();
 }
 ```
-Voici un aperçu du mouvement du robot :
+Voici un aperçu du déplacement du robot :
 <br>
 <video autoplay loop playsinline src="https://github.com/THE07s/GardenMapBot/assets/162814002/0e99bf08-a32b-451b-85bf-9db2ad731a0c" width="30%" hspace="10"> video </video>
 <br>
@@ -216,48 +216,130 @@ Voici un aperçu du mouvement du robot :
 <video autoplay loop playsinline src="https://github.com/THE07s/GardenMapBot/assets/162814002/8494161b-c6f6-4778-b160-64e97f9adee7" width="30%" hspace="10"> video </video>
 <br>
 
-Par la suite, nous avons testé l'ultrason HC-SR04 avec une led témoin pour vérifier que chacun fonctionnait. Voici le code test que nous avons écrit:
+Par la suite, nous avons testé l'ultrason HC-SR04 avec une led témoin pour vérifier son fonctionnement. Les codes ci-dessous nous on permis de tester les ultrasons d'abord individuellement puis ensemble.
 
 ```cpp
-// Bibliothèque pour le capteur à ultrasons
 #include <Ultrasonic.h>
 
-// Broches de connexion du capteur HC-SR04
-const int trigPin = 9; // Broche de déclenchement (Trigger)
-const int echoPin = 8; // Broche d'écho
+const int trigPin = 9;
+const int echoPin = 8;
 
-// Broche de la LED
-const int ledPin = 13; // Utilisons la broche 13 (LED intégrée sur la carte Arduino Uno)
+const int ledPin = 13;
 
-// Créez une instance du capteur ultrason
 Ultrasonic ultrasonic(trigPin, echoPin);
 
 void setup() {
-  // Initialisez la communication série
   Serial.begin(9600);
 
-  // Configurez la broche de la LED comme sortie
   pinMode(ledPin, OUTPUT);
 }
 
 void loop() {
-  // Mesure la distance en cm
   float distance = ultrasonic.read();
 
-  // Affichage de la distance dans le moniteur série
   Serial.print("Distance: ");
   Serial.print(distance);
   Serial.println(" cm");
 
-  // Allumer la LED si la distance est supérieure à 20 cm
   if (distance > 20) {
     digitalWrite(ledPin, HIGH);
   } else {
     digitalWrite(ledPin, LOW);
   }
 
-  // Attendre 1s avant de mesurer à nouveau
   delay(1000);
+}
+
+```
+
+```cpp
+#include <Ultrasonic.h>
+
+const int trigPin1 = 4; 
+const int echoPin1 = 3; 
+const int trigPin2 = 6;
+const int echoPin2 = 5; 
+const int trigPin3 = 9; 
+const int echoPin3 = 8; 
+
+const int ledPin = 13;
+
+Ultrasonic ultrasonic1(trigPin1, echoPin1);
+Ultrasonic ultrasonic2(trigPin2, echoPin2);
+Ultrasonic ultrasonic3(trigPin3, echoPin3);
+
+void setup() {
+  Serial.begin(9600);
+
+  pinMode(ledPin, OUTPUT);
+}
+
+void loop() {
+  float distance1 = ultrasonic1.read();
+  float distance2 = ultrasonic2.read();
+  float distance3 = ultrasonic3.read();
+
+  Serial.print("Distance 1: ");
+  Serial.print(distance1);
+  Serial.println(" cm");
+  Serial.print("Distance 2: ");
+  Serial.print(distance2);
+  Serial.println(" cm");
+  Serial.print("Distance 3: ");
+  Serial.print(distance3);
+  Serial.println(" cm");
+
+  if (distance1 > 20 || distance2 > 20 || distance3 > 20) {
+    digitalWrite(ledPin, HIGH); // Allumez la LED
+  }
+  
+  else {
+    digitalWrite(ledPin, LOW);
+  }
+  delay(1000);
+}
+
+```
+En parallèle de l'ultrason, nous avons testé le DHT22 qui, nous le rappellons, devait servir à mesurer la température et l'humidité. Totefois lors des tests, il s'est grillé et nous l'avons remplacé par le DHT11. Voici le code qui nous a permis d'effectuer les tests :
+
+```cpp
+#include <Arduino.h>
+#include "DHT_Async.h"
+
+#define DHT_SENSOR_TYPE DHT_TYPE_11
+
+static const int DHT_SENSOR_PIN = 10;
+DHT_Async dht_sensor(DHT_SENSOR_PIN, DHT_SENSOR_TYPE);
+
+
+void setup() {
+    Serial.begin(115200);
+}
+
+static bool measure_environment(float *temperature, float *humidite) {
+    static unsigned long measurement_timestamp = millis();
+
+    if (millis() - measurement_timestamp > 4000ul) {
+        if (dht_sensor.measure(temperature, humidite)) {
+            measurement_timestamp = millis();
+            return (true);
+        }
+    }
+
+    return (false);
+}
+
+void loop() {
+    float temperature;
+    float humidite;
+
+    if (measure_environment(&temperature, &humidite)) {
+        Serial.print("T = ");
+        Serial.print(temperature, 1);
+        Serial.print(" deg. C, H = ");
+        Serial.print(humidite, 1);
+        Serial.println("%");
+    }
 }
 
 ```
