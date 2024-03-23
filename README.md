@@ -241,22 +241,22 @@ void setup() {
 }
 
 void loop() {
-  // Mesurez la distance en centimètres
+  // Mesure la distance en cm
   float distance = ultrasonic.read();
 
-  // Affichez la distance dans la console série
+  // Affichage de la distance dans le moniteur série
   Serial.print("Distance: ");
   Serial.print(distance);
   Serial.println(" cm");
 
-  // Allumez la LED si la distance est supérieure à 20 cm
+  // Allumer la LED si la distance est supérieure à 20 cm
   if (distance > 20) {
     digitalWrite(ledPin, HIGH);
   } else {
     digitalWrite(ledPin, LOW);
   }
 
-  // Attendez 1s avant de mesurer à nouveau
+  // Attendre 1s avant de mesurer à nouveau
   delay(1000);
 }
 
