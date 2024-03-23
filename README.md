@@ -208,9 +208,6 @@ void loop() {
 }
 ```
 Voici un aperçu du déplacement du robot :
-<br>
-<video autoplay loop playsinline src="https://github.com/THE07s/GardenMapBot/assets/162814002/0e99bf08-a32b-451b-85bf-9db2ad731a0c" width="30%" hspace="10"> video </video>
-<br>
 
 <br>
 <video autoplay loop playsinline src="https://github.com/THE07s/GardenMapBot/assets/162814002/8494161b-c6f6-4778-b160-64e97f9adee7" width="30%" hspace="10"> video </video>
