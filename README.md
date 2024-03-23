@@ -249,7 +249,7 @@ void loop() {
   Serial.print(distance);
   Serial.println(" cm");
 
-  // Allumez la LED si la distance est inférieure à 20 cm
+  // Allumez la LED si la distance est supérieure à 20 cm
   if (distance > 20) {
     digitalWrite(ledPin, HIGH);
   } else {
