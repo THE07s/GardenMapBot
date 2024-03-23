@@ -113,6 +113,8 @@ Voici les différentes parties qui forment le boitier de notre robot :
     <img src="https://github.com/THE07s/GardenMapBot/assets/162814002/d35b4b35-3c79-444f-ae4d-81c1af8201e7" alt="Dessus" width="47%" hspace="10" >
 </p>
 
+### Servomoteurs
+
 Après la modélisation, nous avons procédé à l'impression du corps et en raison d'un certain nombre de problèmes d'encadrement, nous avons dû procéder au limage de certaines bordures pour permettre l'accueil des capteurs.
 
 Nous avons ensuite débridé les servomoteurs pour permettre leur rotation en continu. Pour des raisons de logiques, nous avons choisi de prendre un angle de 90° comme position d'arrêt. Voici le code de test que nous avons écrit :
@@ -213,7 +215,9 @@ Voici un aperçu du déplacement du robot :
 <video autoplay loop playsinline src="https://github.com/THE07s/GardenMapBot/assets/162814002/8494161b-c6f6-4778-b160-64e97f9adee7" width="30%" hspace="10"> video </video>
 <br>
 
-Par la suite, nous avons testé l'ultrason HC-SR04 avec une led témoin pour vérifier son fonctionnement. Les codes ci-dessous nous on permis de tester les ultrasons d'abord individuellement puis ensemble.
+### Ultrason HC-SR04
+
+**Fonctionnement individuel**
 
 ```cpp
 #include <Ultrasonic.h>
@@ -248,6 +252,8 @@ void loop() {
 }
 
 ```
+
+**Fonctionnement des 3 ultrasons**
 
 ```cpp
 #include <Ultrasonic.h>
@@ -297,6 +303,9 @@ void loop() {
 }
 
 ```
+
+### DHT
+
 En parallèle de l'ultrason, nous avons testé le DHT22 qui, nous le rappellons, devait servir à mesurer la température et l'humidité. Totefois lors des tests, il s'est grillé et nous l'avons remplacé par le DHT11. Voici le code qui nous a permis d'effectuer les tests :
 
 ```cpp
@@ -340,7 +349,131 @@ void loop() {
 }
 
 ```
+### Code "Final"
 
+```cpp
+#include <Servo.h>
+#include <Arduino.h>
+#include "DHT_Async.h"
+#include <VARSTEP_ultrasonic.h>
+
+
+Servo avant_gauche, arriere_gauche, avant_droit, arriere_droit;
+#define DHT_SENSOR_TYPE DHT_TYPE_11
+#define trigger_pin 8
+#define echo_pin 9
+double distance_cm, distance_m;
+VARSTEP_ultrasonic HCSR04(trigger_pin, echo_pin);
+static const int DHT_SENSOR_PIN = 7;
+DHT_Async dht_sensor(DHT_SENSOR_PIN, DHT_SENSOR_TYPE);
+
+float temperature;
+float humidity;
+
+void stop() {
+  avant_gauche.write(90);
+  arriere_gauche.write(90);
+  avant_droit.write(90);
+  arriere_droit.write(91);
+}
+
+void avancer(int duree) {
+  avant_gauche.write(180);
+  arriere_gauche.write(96);
+  avant_droit.write(0);
+  arriere_droit.write(0);
+  delay(duree);
+  stop();
+}
+
+void reculer(int duree) {
+  avant_gauche.write(0);
+  arriere_gauche.write(0);
+  avant_droit.write(180);
+  arriere_droit.write(180);
+  delay(duree);
+  stop();
+}
+
+void tourner_moins_90() {
+  avant_gauche.write(0);
+  arriere_gauche.write(0);
+  avant_droit.write(0);
+  arriere_droit.write(0);
+  delay(650);
+  stop();
+};
+
+void tourner_plus_90() {
+  avant_gauche.write(180);
+  arriere_gauche.write(180);
+  avant_droit.write(180);
+  arriere_droit.write(180);
+  delay(650);
+  stop();
+};
+
+static bool measure_environment(float *temperature, float *humidity) {
+    static unsigned long measurement_timestamp = millis();
+
+    /* Measure once every four seconds. */
+    if (millis() - measurement_timestamp > 4000ul) {
+        if (dht_sensor.measure(temperature, humidity)) {
+            measurement_timestamp = millis();
+            return (true);
+        }
+    }
+
+    return (false);
+}
+
+void T_H() {
+  distance_cm = HCSR04.distance_cm();
+  distance_m = HCSR04.distance_m();
+  if (measure_environment(&temperature, &humidity)) {
+    Serial.print("T = ");
+    Serial.print(temperature, 1);
+    Serial.print(" deg. C, H = ");
+    Serial.print(humidity, 1);
+    Serial.println("%");
+  }
+}
+
+void check_obstacle() {
+  if(distance_cm <= 3.0) {
+    Serial.print("Distance: ");
+    Serial.print(distance_cm);
+    Serial.print("cm | ");
+    Serial.print(distance_m);
+    Serial.println("m");
+    reculer(875);
+    tourner_plus_90();
+    check_obstacle();
+  }
+}
+
+void carre() {
+  for (int i = 0; i < 4; i++) {
+    check_obstacle();
+    avancer(1750);
+    tourner_plus_90();
+    T_H();
+  };
+};
+
+void setup() {
+  while(!Serial);
+  Serial.begin(9600);
+  avant_gauche.attach(2);
+  arriere_gauche.attach(3);
+  avant_droit.attach(4);
+  arriere_droit.attach(5);
+}
+
+void loop() {
+  carre();
+}
+```
 > [!NOTE]
 > ### Problèmes & Solutions
 > Lors de la réalisation de ce projet, nous avons eu à faire face à une flopée de problèmes à savoir :
